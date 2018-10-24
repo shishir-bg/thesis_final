@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thesis-draft.aux
+The style file: ieeetr.bst
+Illegal, another \bibstyle command---line 378 of file Thesis-draft.aux
+ : \bibstyle
+ :          {apa}
+I'm skipping whatever remains of this command
+Database file #1: references.bib
+Warning--entry type for "Henderson_dst_2014" isn't style-file defined
+--line 654 of file references.bib
+Warning--empty journal in macwhinne_lang_evol
+Warning--empty journal in mdp-bellmann
+Warning--empty journal in mdp-pieraccini
+Warning--empty journal in karpathy_rnn
+Warning--empty booktitle in Pieraccini2006WhereDW
+Warning--empty journal in henderson_interdomain
+Warning--empty journal in lopez-cozar-simulation
+Warning--empty journal in Scheffler_sim
+Warning--empty booktitle in Schatzmann2007StatisticalUS
+Warning--empty booktitle in chai2001natural
+Warning--empty year in chai2001natural
+Warning--empty booktitle in ferguson1998trips
+Warning--empty year in ferguson1998trips
+Warning--empty booktitle in LeCun:1998:CNI:303568.303704
+Warning--can't use both volume and number fields in maas2013rectifier
+Warning--empty journal in cauchy1847methode
+Warning--empty year in cauchy1847methode
+You've used 96 entries,
+            1876 wiz_defined-function locations,
+            1018 strings with 21303 characters,
+and the built_in function-call counts, 24686 in all, are:
+= -- 2257
+> -- 1092
+< -- 0
++ -- 404
+- -- 308
+* -- 1802
+:= -- 3532
+add.period$ -- 99
+call.type$ -- 96
+change.case$ -- 91
+chr.to.int$ -- 0
+cite$ -- 113
+duplicate$ -- 1335
+empty$ -- 2453
+format.name$ -- 308
+if$ -- 5950
+int.to.chr$ -- 0
+int.to.str$ -- 96
+missing$ -- 95
+newline$ -- 297
+num.names$ -- 98
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 766
+stack$ -- 0
+substring$ -- 1405
+swap$ -- 447
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 17
+while$ -- 223
+width$ -- 98
+write$ -- 882
+(There was 1 error message)

@@ -1,0 +1,90 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Overview}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Motivation}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{State of the Art}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Dialog Policy trained with Reinforcement Learning}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Dialog Policy trained with End-to-End Supervised Learning}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Dialog Policy trained with a Combined Approach}{subsection.1.3}% 7
+\BOOKMARK [1][-]{section.2}{Dialog Systems}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{System Architecture}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.3}{Dialog Management}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Dialog State Tracking \(DST\)}{subsection.2.3}% 12
+\BOOKMARK [4][-]{paragraph.2.3.1.1}{Information State DST}{subsubsection.2.3.1}% 13
+\BOOKMARK [4][-]{paragraph.2.3.1.2}{Generative DST}{subsubsection.2.3.1}% 14
+\BOOKMARK [4][-]{paragraph.2.3.1.3}{Discriminative DST}{subsubsection.2.3.1}% 15
+\BOOKMARK [4][-]{paragraph.2.3.1.4}{Our Approach}{subsubsection.2.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Dialog Policy}{subsection.2.3}% 17
+\BOOKMARK [4][-]{paragraph.2.3.2.1}{Our Approach}{subsubsection.2.3.2}% 18
+\BOOKMARK [2][-]{subsection.2.4}{User Simulation}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Rule Based Simulation}{subsection.2.4}% 20
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Probabilistic Model Based Simulation}{subsection.2.4}% 21
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Our Approach}{subsection.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.5}{Applications}{section.2}% 23
+\BOOKMARK [1][-]{section.3}{Technical Background}{}% 24
+\BOOKMARK [2][-]{subsection.3.1}{Overview}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.2}{Reinforcement Learning \(RL\)}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.3}{Markov Decision Processes \(MDP\)}{section.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Optimality}{subsection.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.4}{Composing Dialog Management as an MDP}{section.3}% 29
+\BOOKMARK [2][-]{subsection.3.5}{Dialog Policy Optimization}{section.3}% 30
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Value Iterative Methods}{subsection.3.5}% 31
+\BOOKMARK [4][-]{paragraph.3.5.1.1}{Dynamic Programming}{subsubsection.3.5.1}% 32
+\BOOKMARK [4][-]{paragraph.3.5.1.2}{Monte Carlo Learning }{subsubsection.3.5.1}% 33
+\BOOKMARK [4][-]{paragraph.3.5.1.3}{Temporal Difference\(TD\) Learning }{subsubsection.3.5.1}% 34
+\BOOKMARK [4][-]{paragraph.3.5.1.4}{Sample Efficiency}{subsubsection.3.5.1}% 35
+\BOOKMARK [4][-]{paragraph.3.5.1.5}{Function Approximation}{subsubsection.3.5.1}% 36
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Policy Iterative Methods}{subsection.3.5}% 37
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Actor-Critic Methods}{subsection.3.5}% 38
+\BOOKMARK [2][-]{subsection.3.6}{Evaluation and Reward Estimation}{section.3}% 39
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Heuristic Rewards}{subsection.3.6}% 40
+\BOOKMARK [3][-]{subsubsection.3.6.2}{The Paradise Framework}{subsection.3.6}% 41
+\BOOKMARK [3][-]{subsubsection.3.6.3}{Reward Shaping}{subsection.3.6}% 42
+\BOOKMARK [2][-]{subsection.3.7}{Auxiliary RL terminology}{section.3}% 43
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Model-based and Model-free}{subsection.3.7}% 44
+\BOOKMARK [3][-]{subsubsection.3.7.2}{Episodic and Continuous Tasks}{subsection.3.7}% 45
+\BOOKMARK [3][-]{subsubsection.3.7.3}{On-line and Off-line}{subsection.3.7}% 46
+\BOOKMARK [3][-]{subsubsection.3.7.4}{On Policy and Off Policy}{subsection.3.7}% 47
+\BOOKMARK [3][-]{subsubsection.3.7.5}{Exploration and Exploitation}{subsection.3.7}% 48
+\BOOKMARK [1][-]{section.4}{Deep Learning}{}% 49
+\BOOKMARK [2][-]{subsection.4.1}{Overview}{section.4}% 50
+\BOOKMARK [2][-]{subsection.4.2}{Deep Feedforward Networks}{section.4}% 51
+\BOOKMARK [2][-]{subsection.4.3}{Loss Functions}{section.4}% 52
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Maximum Likelihood Estimation}{subsection.4.3}% 53
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Approximating Conditional Distributions with Maximum Likelihood}{subsection.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.4}{Output Units}{section.4}% 55
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Linear Units}{subsection.4.4}% 56
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Sigmoid Units}{subsection.4.4}% 57
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Softmax Units}{subsection.4.4}% 58
+\BOOKMARK [2][-]{subsection.4.5}{Hidden Units}{section.4}% 59
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Rectified Linear Units\(ReLU\)}{subsection.4.5}% 60
+\BOOKMARK [3][-]{subsubsection.4.5.2}{The Hyperbolic Tangent and Logistic Sigmoid}{subsection.4.5}% 61
+\BOOKMARK [2][-]{subsection.4.6}{Architecture}{section.4}% 62
+\BOOKMARK [2][-]{subsection.4.7}{Gradient Based Learning}{section.4}% 63
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Back-Propagation}{subsection.4.7}% 64
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Stochastic Gradient Descent\(SGD\)}{subsection.4.7}% 65
+\BOOKMARK [1][-]{section.5}{Neural Dialog Management}{}% 66
+\BOOKMARK [2][-]{subsection.5.1}{Overview}{section.5}% 67
+\BOOKMARK [2][-]{subsection.5.2}{REINFORCE}{section.5}% 68
+\BOOKMARK [3][-]{subsubsection.5.2.1}{REINFORCE Algorithm}{subsection.5.2}% 69
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Policy Network}{subsection.5.2}% 70
+\BOOKMARK [2][-]{subsection.5.3}{Advantage Actor Critic}{section.5}% 71
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Advantage Function}{subsection.5.3}% 72
+\BOOKMARK [3][-]{subsubsection.5.3.2}{A2C Algorithm}{subsection.5.3}% 73
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Actor Network}{subsection.5.3}% 74
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Critic Network}{subsection.5.3}% 75
+\BOOKMARK [1][-]{section.6}{Experiments and Results}{}% 76
+\BOOKMARK [2][-]{subsection.6.1}{Overview}{section.6}% 77
+\BOOKMARK [2][-]{subsection.6.2}{Learning Simple Dialog Strategies}{section.6}% 78
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Experimental Setup}{subsection.6.2}% 79
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Learning with A2C}{subsection.6.2}% 80
+\BOOKMARK [4][-]{paragraph.6.2.2.1}{Results}{subsubsection.6.2.2}% 81
+\BOOKMARK [4][-]{paragraph.6.2.2.2}{Effect of the Discount Factor}{subsubsection.6.2.2}% 82
+\BOOKMARK [4][-]{paragraph.6.2.2.3}{Effect of Reward Magnitude}{subsubsection.6.2.2}% 83
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Learning with REINFORCE}{subsection.6.2}% 84
+\BOOKMARK [4][-]{paragraph.6.2.3.1}{Results}{subsubsection.6.2.3}% 85
+\BOOKMARK [2][-]{subsection.6.3}{Summary}{section.6}% 86
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 87
+\BOOKMARK [2][-]{subsection.7.1}{Conclusion}{section.7}% 88
+\BOOKMARK [2][-]{subsection.7.2}{Future Work}{section.7}% 89
+\BOOKMARK [1][-]{section.8}{References}{}% 90

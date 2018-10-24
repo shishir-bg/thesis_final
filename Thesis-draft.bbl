@@ -1,0 +1,459 @@
+\begin{thebibliography}{10}
+
+\bibitem{macwhinne_lang_evol}
+B.~Macwhinney, ``Language evolution and human development,'' 12 2008.
+
+\bibitem{turing_mind}
+A.~M. TURING, ``I.—computing machinery and intelligence,'' {\em Mind},
+  vol.~LIX, no.~236, pp.~433--460, 1950.
+
+\bibitem{kurzweil_sing}
+R.~Kurzweil, {\em The Singularity Is Near: When Humans Transcend Biology}.
+\newblock Penguin (Non-Classics) ©2006, 2006.
+
+\bibitem{Weizenbaum:1966:ECP:365153.365168}
+J.~Weizenbaum, ``Eliza\&mdash;a computer program for the study of natural
+  language communication between man and machine,'' {\em Commun. ACM}, vol.~9,
+  pp.~36--45, Jan. 1966.
+
+\bibitem{ncf2017}
+X.~He, L.~Liao, H.~Zhang, L.~Nie, X.~Hu, and T.~Chua, ``Neural collaborative
+  filtering,'' {\em CoRR}, vol.~abs/1708.05031, 2017.
+
+\bibitem{frey2017future}
+C.~B. Frey and M.~A. Osborne, ``The future of employment: how susceptible are
+  jobs to computerisation?,'' {\em Technological forecasting and social
+  change}, vol.~114, pp.~254--280, 2017.
+
+\bibitem{Tao_of_CHI}
+R.~Porzel and M.~Baudis, ``The tao of chi: Towards effective human-computer
+  interaction,'' in {\em HLT-NAACL}, 2004.
+
+\bibitem{zue_jupiter}
+V.~Zue, S.~Seneff, J.~R. Glass, J.~Polifroni, C.~Pao, T.~J. Hazen, and
+  L.~Hetherington, ``Juplter: a telephone-based conversational interface for
+  weather information,'' {\em IEEE Transactions on Speech and Audio
+  Processing}, vol.~8, pp.~85--96, Jan 2000.
+
+\bibitem{Larsson:2000:ISD:973935.973943}
+S.~Larsson and D.~R. Traum, ``Information state and dialogue management in the
+  trindi dialogue move engine toolkit,'' {\em Nat. Lang. Eng.}, vol.~6,
+  pp.~323--340, Sept. 2000.
+
+\bibitem{mdp-bellmann}
+R.~Bellman, ``A markovian decision process,'' vol.~6, p.~15, 04 1957.
+
+\bibitem{mdp-pieraccini}
+E.~Levin, R.~Pieraccini, and W.~Eckert, ``Learning dialogue strategies within
+  the markov decision process framework,'' pp.~72 -- 79, 01 1998.
+
+\bibitem{Young99probabilisticmethods}
+S.~Young, ``Probabilistic methods in spoken dialogue systems,'' {\em
+  Philosophical Transactions of the Royal Society (Series A}, vol.~358,
+  pp.~1389--1402, 1999.
+
+\bibitem{Singh_mdp}
+S.~P. Singh, M.~J. Kearns, D.~J. Litman, and M.~A. Walker, ``Reinforcement
+  learning for spoken dialogue systems,'' in {\em Advances in Neural
+  Information Processing Systems 12} (S.~A. Solla, T.~K. Leen, and
+  K.~M\"{u}ller, eds.), pp.~956--962, MIT Press, 2000.
+
+\bibitem{Pietquin_mdp}
+O.~Pietquin and T.~Dutoit, ``A probabilistic framework for dialog simulation
+  and optimal strategy learning,'' {\em IEEE Transactions on Audio, Speech, and
+  Language Processing}, vol.~14, pp.~589--599, March 2006.
+
+\bibitem{Dhingra2016EndtoEndRL}
+B.~Dhingra, L.~Li, X.~Li, J.~Gao, Y.-N. Chen, F.~Ahmed, and L.~Deng,
+  ``End-to-end reinforcement learning of dialogue agents for information
+  access,'' {\em CoRR}, vol.~abs/1609.00777, 2016.
+
+\bibitem{Cuayhuitl2016SimpleDSAS}
+H.~Cuay{\'a}huitl, ``Simpleds: A simple deep reinforcement learning dialogue
+  system,'' in {\em IWSDS}, 2016.
+
+\bibitem{Li17e2eDS}
+X.~Li, Y.~Chen, L.~Li, and J.~Gao, ``End-to-end task-completion neural dialogue
+  systems,'' {\em CoRR}, vol.~abs/1703.01008, 2017.
+
+\bibitem{HakkaniTr2016NLU}
+D.~Z. Hakkani-T{\"u}r, G.~T{\"u}r, A.~Çelikyilmaz, Y.-N. Chen, J.~Gao,
+  L.~Deng, and Y.-Y. Wang, ``Multi-domain joint semantic frame parsing using
+  bi-directional rnn-lstm,'' in {\em INTERSPEECH}, 2016.
+
+\bibitem{Wen_NLG}
+T.~Wen, M.~Gasic, N.~Mrksic, P.~Su, D.~Vandyke, and S.~J. Young, ``Semantically
+  conditioned lstm-based natural language generation for spoken dialogue
+  systems,'' {\em CoRR}, vol.~abs/1508.01745, 2015.
+
+\bibitem{hochreiter1997long}
+S.~Hochreiter and J.~Schmidhuber, ``Long short-term memory,'' {\em Neural
+  computation}, vol.~9, no.~8, pp.~1735--1780, 1997.
+
+\bibitem{Schatzmann_agenda_sim}
+J.~Schatzmann and S.~Young, ``The hidden agenda user simulation model,'' {\em
+  IEEE Transactions on Audio, Speech, and Language Processing}, vol.~17,
+  pp.~733--747, May 2009.
+
+\bibitem{Li_user_sim}
+X.~Li, Z.~C. Lipton, B.~Dhingra, L.~Li, J.~Gao, and Y.~Chen, ``A user simulator
+  for task-completion dialogues,'' {\em CoRR}, vol.~abs/1612.05688, 2016.
+
+\bibitem{Mnih_DQN}
+V.~Mnih, K.~Kavukcuoglu, D.~Silver, A.~Graves, I.~Antonoglou, D.~Wierstra, and
+  M.~A. Riedmiller, ``Playing atari with deep reinforcement learning,'' {\em
+  CoRR}, vol.~abs/1312.5602, 2013.
+
+\bibitem{tensorflow}
+M.~Abadi, P.~Barham, J.~Chen, Z.~Chen, A.~Davis, J.~Dean, M.~Devin,
+  S.~Ghemawat, G.~Irving, M.~Isard, M.~Kudlur, J.~Levenberg, R.~Monga,
+  S.~Moore, D.~G. Murray, B.~Steiner, P.~Tucker, V.~Vasudevan, P.~Warden,
+  M.~Wicke, Y.~Yu, and X.~Zheng, ``Tensorflow: A system for large-scale machine
+  learning,'' in {\em 12th USENIX Symposium on Operating Systems Design and
+  Implementation (OSDI 16)}, pp.~265--283, 2016.
+
+\bibitem{Sutskever_seq_2seq}
+I.~Sutskever, O.~Vinyals, and Q.~V. Le, ``Sequence to sequence learning with
+  neural networks,'' {\em CoRR}, vol.~abs/1409.3215, 2014.
+
+\bibitem{karpathy_rnn}
+A.~Karpathy, ``The unreasonable effectiveness of recurrent neural networks,''
+  2015.
+
+\bibitem{hochreiter1998vanishing}
+S.~Hochreiter, ``The vanishing gradient problem during learning recurrent
+  neural nets and problem solutions,'' {\em International Journal of
+  Uncertainty, Fuzziness and Knowledge-Based Systems}, vol.~6, no.~02,
+  pp.~107--116, 1998.
+
+\bibitem{Sukhbaatar_end2end_mem_net}
+S.~Sukhbaatar, A.~Szlam, J.~Weston, and R.~Fergus, ``Weakly supervised memory
+  networks,'' {\em CoRR}, vol.~abs/1503.08895, 2015.
+
+\bibitem{babl}
+facebook research, ``The babi project,'' {\em BABL}, 2017.
+
+\bibitem{bordes_weston_e2e}
+A.~Bordes and J.~Weston, ``Learning end-to-end goal-oriented dialog,'' {\em
+  CoRR}, vol.~abs/1605.07683, 2016.
+
+\bibitem{Su_continous_dm}
+P.~Su, M.~Gasic, N.~Mrksic, L.~M. Rojas{-}Barahona, S.~Ultes, D.~Vandyke,
+  T.~Wen, and S.~J. Young, ``Continuously learning neural dialogue
+  management,'' {\em CoRR}, vol.~abs/1606.02689, 2016.
+
+\bibitem{Schulman_trpo}
+J.~Schulman, S.~Levine, P.~Moritz, M.~I. Jordan, and P.~Abbeel, ``Trust region
+  policy optimization,'' {\em CoRR}, vol.~abs/1502.05477, 2015.
+
+\bibitem{Sutton_pg}
+R.~S. Sutton, D.~McAllester, S.~Singh, and Y.~Mansour, ``Policy gradient
+  methods for reinforcement learning with function approximation,'' in {\em
+  Proceedings of the 12th International Conference on Neural Information
+  Processing Systems}, NIPS'99, (Cambridge, MA, USA), pp.~1057--1063, MIT
+  Press, 1999.
+
+\bibitem{Lin1992}
+L.-J. Lin, ``Self-improving reactive agents based on reinforcement learning,
+  planning and teaching,'' {\em Machine Learning}, vol.~8, pp.~293--321, May
+  1992.
+
+\bibitem{Williams_HCN_e2e}
+J.~D. Williams, K.~Asadi, and G.~Zweig, ``Hybrid code networks: practical and
+  efficient end-to-end dialog control with supervised and reinforcement
+  learning,'' {\em CoRR}, vol.~abs/1702.03274, 2017.
+
+\bibitem{ds_survey}
+H.~Chen, X.~Liu, D.~Yin, and J.~Tang, ``A survey on dialogue systems: Recent
+  advances and new frontiers,'' {\em CoRR}, vol.~abs/1711.01731, 2017.
+
+\bibitem{Pieraccini2006WhereDW}
+R.~Pieraccini and J.~M. Huerta, ``Where do we go from here ? research and
+  commercial spoken dialog systems,'' 2006.
+
+\bibitem{ml_dst_review}
+M.~Henderson, ``Machine learning for dialog state tracking: A review,'' in {\em
+  Proceedings of The First International Workshop on Machine Learning in Spoken
+  Language Processing}, 2015.
+
+\bibitem{Sutton-introRL}
+R.~S. Sutton and A.~G. Barto, {\em Reinforcement Learning : An Introduction}.
+\newblock MIT Press, 1998.
+
+\bibitem{Young_dst_dbn}
+S.~J. Young, J.~Schatzmann, K.~Weilhammer, and H.~Ye, ``The hidden information
+  state approach to dialog management,'' {\em 2007 IEEE International
+  Conference on Acoustics, Speech and Signal Processing - ICASSP '07}, vol.~4,
+  pp.~IV--149--IV--152, 2007.
+
+\bibitem{roy2000spoken}
+N.~Roy, J.~Pineau, and S.~Thrun, ``Spoken dialogue management using
+  probabilistic reasoning,'' in {\em Proceedings of the 38th Annual Meeting on
+  Association for Computational Linguistics}, pp.~93--100, Association for
+  Computational Linguistics, 2000.
+
+\bibitem{Henderson:2008:MMP:1557690.1557710}
+J.~Henderson and O.~Lemon, ``Mixture model pomdps for efficient handling of
+  uncertainty in dialogue management,'' in {\em Proceedings of the 46th Annual
+  Meeting of the Association for Computational Linguistics on Human Language
+  Technologies: Short Papers}, HLT-Short '08, (Stroudsburg, PA, USA),
+  pp.~73--76, Association for Computational Linguistics, 2008.
+
+\bibitem{Young:2010:HIS:1621140.1621240}
+S.~Young, M.~Ga\v{s}i\'{c}, S.~Keizer, F.~Mairesse, J.~Schatzmann, B.~Thomson,
+  and K.~Yu, ``The hidden information state model: A practical framework for
+  pomdp-based spoken dialogue management,'' {\em Comput. Speech Lang.},
+  vol.~24, pp.~150--174, Apr. 2010.
+
+\bibitem{generative_dst_limitation}
+J.~D. Williams, ``A critical analysis of two statistical spoken dialog systems
+  in public use,'' in {\em 2012 IEEE Spoken Language Technology Workshop
+  (SLT)}, pp.~55--60, Dec 2012.
+
+\bibitem{Lee2013StructuredDM}
+S.~Lee, ``Structured discriminative model for dialog state tracking,'' in {\em
+  SIGDIAL Conference}, 2013.
+
+\bibitem{Henderson2014WordBasedDS}
+M.~Henderson, B.~Thomson, and S.~J. Young, ``Word-based dialog state tracking
+  with recurrent neural networks,'' in {\em SIGDIAL Conference}, 2014.
+
+\bibitem{Henderson_dst_2014}
+M.~Henderson, B.~Thomson, and S.~Young, ``Robust dialog state tracking using
+  delexicalised recurrent neural networks and unsupervised adaptation,'' 12
+  2014.
+
+\bibitem{DBLP:journals/corr/MrksicSWTY16}
+N.~Mrksic, D.~{\'{O}}. S{\'{e}}aghdha, T.~Wen, B.~Thomson, and S.~J. Young,
+  ``Neural belief tracker: Data-driven dialogue state tracking,'' {\em CoRR},
+  vol.~abs/1606.03777, 2016.
+
+\bibitem{DBLP:journals/corr/abs-1711-01731}
+H.~Chen, X.~Liu, D.~Yin, and J.~Tang, ``A survey on dialogue systems: Recent
+  advances and new frontiers,'' {\em CoRR}, vol.~abs/1711.01731, 2017.
+
+\bibitem{henderson_interdomain}
+M.~Gašić, D.~Kim, P.~Tsiakoulis, C.~Breslin, M.~Henderson, M.~Szummer,
+  B.~Thomson, and S.~Young, ``Incremental on-line adaptation of pomdp-based
+  dialogue managers to extended domains,'' pp.~140--144, 01 2014.
+
+\bibitem{lopez-cozar-simulation}
+R.~López-Cózar, �.~Torre, J.~Segura, A.~Rubio, and V.~Sanchez, ``Testing
+  dialogue systems by means of automatic generation of conversations,''
+  vol.~14, 10 2002.
+
+\bibitem{Schatzmann_stat_user_sim}
+J.~Schatzmann, K.~Weilhammer, M.~Stuttle, and S.~Young, ``A survey of
+  statistical user simulation techniques for reinforcement-learning of dialogue
+  management strategies,'' {\em Knowl. Eng. Rev.}, vol.~21, pp.~97--126, June
+  2006.
+
+\bibitem{Chung_user_sim}
+G.~Chung, ``Developing a flexible spoken dialog system using simulation,'' in
+  {\em Proceedings of the 42Nd Annual Meeting on Association for Computational
+  Linguistics}, ACL '04, (Stroudsburg, PA, USA), Association for Computational
+  Linguistics, 2004.
+
+\bibitem{Lopez-Cozar_user-sim}
+R.~L\'{o}pez-C\'{o}zar, Z.~Callejas, and M.~Mctear, ``Testing the performance
+  of spoken dialogue systems by means of an artificially simulated user,'' {\em
+  Artif. Intell. Rev.}, vol.~26, pp.~291--323, Dec. 2006.
+
+\bibitem{Cuayhuitl2006LearningMD}
+H.~Cuay{\'a}huitl, S.~Renals, O.~Lemon, and H.~Shimodaira, ``Learning
+  multi-goal dialogue strategies using reinforcement learning with reduced
+  state-action spaces,'' in {\em INTERSPEECH}, 2006.
+
+\bibitem{levin_mdp}
+E.~Levin, R.~Pieraccini, and W.~Eckert, ``A stochastic model of human-machine
+  interaction for learning dialog strategies,'' {\em IEEE Transactions on
+  Speech and Audio Processing}, vol.~8, pp.~11--23, Jan 2000.
+
+\bibitem{4430164}
+J.~D. Williams, ``A method for evaluating and comparing user simulations: The
+  cramér-von mises divergence,'' in {\em 2007 IEEE Workshop on Automatic
+  Speech Recognition Understanding (ASRU)}, pp.~508--513, Dec 2007.
+
+\bibitem{Georgila2006UserSF}
+K.~Georgila, J.~Henderson, and O.~Lemon, ``User simulation for spoken dialogue
+  systems: learning and evaluation,'' in {\em INTERSPEECH}, 2006.
+
+\bibitem{Cuayhuitl2005HumancomputerDS}
+H.~Cuay{\'a}huitl, S.~Renals, O.~Lemon, and H.~Shimodaira, ``Human-computer
+  dialogue simulation using hidden markov models,'' {\em IEEE Workshop on
+  Automatic Speech Recognition and Understanding, 2005.}, pp.~290--295, 2005.
+
+\bibitem{Scheffler_sim}
+K.~Scheffler and S.~Young, ``Corpus-based dialogue simulation for automatic
+  strategy learning and evaluation,'' pp.~64--70, 07 2001.
+
+\bibitem{Schatzmann2007StatisticalUS}
+J.~Schatzmann, B.~Thomson, and S.~Young, ``Statistical user simulation with a
+  hidden agenda,'' 2007.
+
+\bibitem{georgila1998integrated}
+K.~Georgila, A.~Tsopanoglou, N.~Fakotakis, and G.~Kokkinakis, ``An integrated
+  dialogue system for the automation of call centre services,'' in {\em Fifth
+  International Conference on Spoken Language Processing}, 1998.
+
+\bibitem{chai2001natural}
+J.~Y. Chai, N.~Kambhatla, and W.~Zadrozny, ``Natural language sales assistant-a
+  web-based dialog system for online sales.,''
+
+\bibitem{su2013dialoguegame}
+P.-h. Su, Y.-B. Wang, T.-h. Yu, and L.-s. Lee, ``A dialogue game framework with
+  personalized training using reinforcement learning for computer-assisted
+  language learning,'' in {\em Acoustics, Speech and Signal Processing
+  (ICASSP), 2013 IEEE International Conference on}, pp.~8213--8217, IEEE, 2013.
+
+\bibitem{ELVIS}
+M.~A. Walker, ``An application of reinforcement learning to dialogue strategy
+  selection in a spoken dialogue system for email,'' {\em CoRR},
+  vol.~abs/1106.0241, 2011.
+
+\bibitem{Shriver_unified}
+S.~Shriver, A.~Toth, X.~Zhu, A.~Rudnicky, and R.~Rosenfeld, ``A unified design
+  for human-machine voice interaction,'' in {\em CHI '01 Extended Abstracts on
+  Human Factors in Computing Systems}, CHI EA '01, (New York, NY, USA),
+  pp.~247--248, ACM, 2001.
+
+\bibitem{TRAIN}
+J.~F. Allen, B.~W. Miller, E.~K. Ringger, and T.~Sikorski, ``A robust system
+  for natural spoken dialogue,'' {\em CoRR}, vol.~cmp-lg/9606023, 1996.
+
+\bibitem{ferguson1998trips}
+G.~Ferguson, J.~F. Allen, {\em et~al.}, ``Trips: An integrated intelligent
+  problem-solving assistant,''
+
+\bibitem{Levin97astochastic}
+E.~Levin and R.~Pieraccini, ``A stochastic model of computer-human interaction
+  for learning dialogue strategies,'' in {\em In EUROSPEECH 97},
+  pp.~1883--1886, 1997.
+
+\bibitem{rl_overview}
+Y.~Li, ``Deep reinforcement learning: An overview,'' {\em arXiv preprint
+  arXiv:1701.07274}, 2017.
+
+\bibitem{sutton1988TFDearning}
+R.~S. Sutton, ``Learning to predict by the methods of temporal differences,''
+  {\em Machine learning}, vol.~3, no.~1, pp.~9--44, 1988.
+
+\bibitem{watkins1989Qlearning}
+C.~J. C.~H. Watkins, {\em Learning from delayed rewards}.
+\newblock PhD thesis, King's College, Cambridge, 1989.
+
+\bibitem{adam2012experience}
+S.~Adam, L.~Busoniu, and R.~Babuska, ``Experience replay for real-time
+  reinforcement learning control,'' {\em IEEE Transactions on Systems, Man, and
+  Cybernetics, Part C (Applications and Reviews)}, vol.~42, no.~2,
+  pp.~201--212, 2012.
+
+\bibitem{verleysen2005curse}
+M.~Verleysen and D.~Fran{\c{c}}ois, ``The curse of dimensionality in data
+  mining and time series prediction,'' in {\em International Work-Conference on
+  Artificial Neural Networks}, pp.~758--770, Springer, 2005.
+
+\bibitem{hornik1989multilayer}
+K.~Hornik, M.~Stinchcombe, and H.~White, ``Multilayer feedforward networks are
+  universal approximators,'' {\em Neural networks}, vol.~2, no.~5,
+  pp.~359--366, 1989.
+
+\bibitem{peters2005natural}
+J.~Peters, S.~Vijayakumar, and S.~Schaal, ``Natural actor-critic,'' in {\em
+  European Conference on Machine Learning}, pp.~280--291, Springer, 2005.
+
+\bibitem{bordes2016learning}
+A.~Bordes, Y.-L. Boureau, and J.~Weston, ``Learning end-to-end goal-oriented
+  dialog,'' {\em arXiv preprint arXiv:1605.07683}, 2016.
+
+\bibitem{liu2016not}
+C.-W. Liu, R.~Lowe, I.~V. Serban, M.~Noseworthy, L.~Charlin, and J.~Pineau,
+  ``How not to evaluate your dialogue system: An empirical study of
+  unsupervised evaluation metrics for dialogue response generation,'' {\em
+  arXiv preprint arXiv:1603.08023}, 2016.
+
+\bibitem{Williams:2007:POM:1221595.1221967}
+J.~D. Williams and S.~Young, ``Partially observable markov decision processes
+  for spoken dialog systems,'' {\em Comput. Speech Lang.}, vol.~21,
+  pp.~393--422, Apr. 2007.
+
+\bibitem{lemon2006evaluating}
+O.~Lemon, K.~Georgila, and J.~Henderson, ``Evaluating effectiveness and
+  portability of reinforcement learned dialogue strategies with real users: the
+  talk towninfo evaluation,'' in {\em Spoken Language Technology Workshop,
+  2006. IEEE}, pp.~178--181, IEEE, 2006.
+
+\bibitem{walker1997paradise}
+M.~A. Walker, D.~J. Litman, C.~A. Kamm, and A.~Abella, ``Paradise: A framework
+  for evaluating spoken dialogue agents,'' in {\em Proceedings of the eighth
+  conference on European chapter of the Association for Computational
+  Linguistics}, pp.~271--280, Association for Computational Linguistics, 1997.
+
+\bibitem{larsen2003issues}
+L.~B. Larsen, ``Issues in the evaluation of spoken dialogue systems using
+  objective and subjective measures,'' in {\em Automatic Speech Recognition and
+  Understanding, 2003. ASRU'03. 2003 IEEE Workshop on}, pp.~209--214, IEEE,
+  2003.
+
+\bibitem{mataric1994reward}
+M.~J. Mataric, ``Reward functions for accelerated learning,'' in {\em Machine
+  Learning Proceedings 1994}, pp.~181--189, Elsevier, 1994.
+
+\bibitem{ng1999policy}
+A.~Y. Ng, D.~Harada, and S.~Russell, ``Policy invariance under reward
+  transformations: Theory and application to reward shaping,'' in {\em ICML},
+  vol.~99, pp.~278--287, 1999.
+
+\bibitem{Goodfellow-et-al-2016}
+I.~Goodfellow, Y.~Bengio, and A.~Courville, {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{LeCun:1998:CNI:303568.303704}
+Y.~LeCun and Y.~Bengio, ``The handbook of brain theory and neural networks,''
+  ch.~Convolutional Networks for Images, Speech, and Time Series, pp.~255--258,
+  Cambridge, MA, USA: MIT Press, 1998.
+
+\bibitem{jarrett2009best}
+K.~Jarrett, K.~Kavukcuoglu, Y.~LeCun, {\em et~al.}, ``What is the best
+  multi-stage architecture for object recognition?,'' in {\em Computer Vision,
+  2009 IEEE 12th International Conference on}, pp.~2146--2153, IEEE, 2009.
+
+\bibitem{maas2013rectifier}
+A.~L. Maas, A.~Y. Hannun, and A.~Y. Ng, ``Rectifier nonlinearities improve
+  neural network acoustic models,'' in {\em Proc. icml}, vol.~30, p.~3, 2013.
+
+\bibitem{he2015delving}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Delving deep into rectifiers: Surpassing
+  human-level performance on imagenet classification,'' in {\em Proceedings of
+  the IEEE international conference on computer vision}, pp.~1026--1034, 2015.
+
+\bibitem{cauchy1847methode}
+A.~Cauchy, ``M{\'e}thode g{\'e}n{\'e}rale pour la r{\'e}solution des systemes
+  d’{\'e}quations simultan{\'e}es,''
+
+\bibitem{rumelhart1986learning}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams, ``Learning representations
+  by back-propagating errors,'' {\em nature}, vol.~323, no.~6088, p.~533, 1986.
+
+\bibitem{Williams92REINFORCE}
+R.~J. Williams, ``Simple statistical gradient-following algorithms for
+  connectionist reinforcement learning,'' in {\em Machine Learning},
+  pp.~229--256, 1992.
+
+\bibitem{kingma2014adam}
+D.~P. Kingma and J.~Ba, ``Adam: A method for stochastic optimization,'' {\em
+  arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{python}
+{Python Core Team}, {\em Python: A dynamic, open source programming language}.
+\newblock Python Software Foundation, 2015.
+
+\bibitem{keras}
+F.~Chollet, ``keras.'' \url{https://github.com/fchollet/keras}, 2015.
+
+\bibitem{walker2000evaluation}
+M.~A. Walker, L.~Hirschman, and J.~S. Aberdeen, ``Evaluation for darpa
+  communicator spoken dialogue systems.,'' in {\em LREC}, Citeseer, 2000.
+
+\end{thebibliography}
