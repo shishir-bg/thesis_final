@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  24 OCT 2018 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  24 OCT 2018 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,49 +944,54 @@ File: ./images/back_prop.png Graphic file (type png)
 <use ./images/back_prop.png>
 Package pdftex.def Info: ./images/back_prop.png used on input line 694.
 (pdftex.def)             Requested size: 451.7848pt x 191.8153pt.
- [75 <./images/back_prop.png>] [76] [77] [78]
-[79] [80] [81] <./images/nn-actor.png, id=1418, 353.32pt x 327.2225pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--721
+
+ []
+
+[75 <./images/back_prop.png>] [76] [77] [78] [79] [80] [81]
+<./images/nn-actor.png, id=1419, 353.32pt x 327.2225pt>
 File: ./images/nn-actor.png Graphic file (type png)
 
 <use ./images/nn-actor.png>
-Package pdftex.def Info: ./images/nn-actor.png used on input line 823.
+Package pdftex.def Info: ./images/nn-actor.png used on input line 824.
 (pdftex.def)             Requested size: 211.99364pt x 196.335pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [82] [83 <./images/nn-actor.png>] [84]
-<./images/a2c.jpg, id=1453, 779.91376pt x 512.91624pt>
+<./images/a2c.jpg, id=1454, 779.91376pt x 512.91624pt>
 File: ./images/a2c.jpg Graphic file (type jpg)
  <use ./images/a2c.jpg>
-Package pdftex.def Info: ./images/a2c.jpg used on input line 847.
+Package pdftex.def Info: ./images/a2c.jpg used on input line 848.
 (pdftex.def)             Requested size: 467.95187pt x 307.75212pt.
 
-Overfull \hbox (10.19688pt too wide) in paragraph at lines 847--849
+Overfull \hbox (10.19688pt too wide) in paragraph at lines 848--850
  [][] 
  []
 
 [85 <./images/a2c.jpg>]
 File: ./images/nn-actor.png Graphic file (type png)
  <use ./images/nn-actor.png>
-Package pdftex.def Info: ./images/nn-actor.png used on input line 900.
+Package pdftex.def Info: ./images/nn-actor.png used on input line 901.
 (pdftex.def)             Requested size: 211.99364pt x 196.335pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86] [87] [88] <./images/nn-critic.png, id=1495, 269.005pt x 318.18875pt>
+[86] [87] [88] <./images/nn-critic.png, id=1496, 269.005pt x 318.18875pt>
 File: ./images/nn-critic.png Graphic file (type png)
 
 <use ./images/nn-critic.png>
-Package pdftex.def Info: ./images/nn-critic.png used on input line 916.
+Package pdftex.def Info: ./images/nn-critic.png used on input line 917.
 (pdftex.def)             Requested size: 161.40424pt x 190.9147pt.
  [89 <./images/nn-critic.png>] [90] [91] [92]
-<./images/state-trans.png, id=1532, 428.60126pt x 358.33875pt>
+<./images/state-trans.png, id=1533, 428.60126pt x 358.33875pt>
 File: ./images/state-trans.png Graphic file (type png)
 
 <use ./images/state-trans.png>
-Package pdftex.def Info: ./images/state-trans.png used on input line 961.
+Package pdftex.def Info: ./images/state-trans.png used on input line 962.
 (pdftex.def)             Requested size: 300.01883pt x 250.83542pt.
 
 
@@ -999,104 +1004,104 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [94 <./images/state-trans.png>] [95] [96
 
 ]
-Underfull \hbox (badness 1062) in paragraph at lines 1025--1025
+Underfull \hbox (badness 1062) in paragraph at lines 1026--1026
 []\OT1/cmr/m/n/14.4 Opens the sales con-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 1025--1025
+Underfull \hbox (badness 2653) in paragraph at lines 1026--1026
 \OT1/cmr/m/n/14.4 prod-uct re-lated sales
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 1025--1025
+Underfull \hbox (badness 4391) in paragraph at lines 1026--1026
 []\OT1/cmr/m/n/14.4 Do you store many
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 1025--1025
+Underfull \hbox (badness 1824) in paragraph at lines 1026--1026
 []\OT1/cmr/m/n/14.4 We of-fer one of the
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 1025--1025
+Underfull \hbox (badness 3138) in paragraph at lines 1026--1026
 []\OT1/cmr/m/n/14.4 Closes the deal and
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 1025--1025
+Underfull \hbox (badness 2293) in paragraph at lines 1026--1026
 \OT1/cmr/m/n/14.4 or would he like to
  []
 
 [97]
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1033
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1034
 
  []
 
-[98] <./images/plota2c_250_3.pdf, id=1576, 794.97pt x 505.89pt>
+[98] <./images/plota2c_250_3.pdf, id=1577, 794.97pt x 505.89pt>
 File: ./images/plota2c_250_3.pdf Graphic file (type pdf)
 
 <use ./images/plota2c_250_3.pdf>
-Package pdftex.def Info: ./images/plota2c_250_3.pdf used on input line 1058.
+Package pdftex.def Info: ./images/plota2c_250_3.pdf used on input line 1059.
 (pdftex.def)             Requested size: 556.4752pt x 354.12057pt.
 
-Overfull \hbox (32.94801pt too wide) in paragraph at lines 1056--1060
+Overfull \hbox (32.94801pt too wide) in paragraph at lines 1057--1061
  []|  [] 
  []
 
 [99] [100 <./images/plota2c_250_3.pdf>]
-<./images/a2c-dis-fact.pdf, id=1629, 794.97pt x 505.89pt>
+<./images/a2c-dis-fact.pdf, id=1630, 794.97pt x 505.89pt>
 File: ./images/a2c-dis-fact.pdf Graphic file (type pdf)
 
 <use ./images/a2c-dis-fact.pdf>
-Package pdftex.def Info: ./images/a2c-dis-fact.pdf used on input line 1069.
+Package pdftex.def Info: ./images/a2c-dis-fact.pdf used on input line 1070.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1067--1071
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1068--1072
  []|  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1073
 
  []
 
 [101] [102 <./images/a2c-dis-fact.pdf>]
-<./images/a2c_reward_mag.pdf, id=1685, 794.97pt x 505.89pt>
+<./images/a2c_reward_mag.pdf, id=1686, 794.97pt x 505.89pt>
 File: ./images/a2c_reward_mag.pdf Graphic file (type pdf)
 
 <use ./images/a2c_reward_mag.pdf>
-Package pdftex.def Info: ./images/a2c_reward_mag.pdf used on input line 1080.
+Package pdftex.def Info: ./images/a2c_reward_mag.pdf used on input line 1081.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1078--1082
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1079--1083
  []|  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1083
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1084
 
  []
 
 [103] [104 <./images/a2c_reward_mag.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1097
 
  []
 
-[105] <./images/plot_reinforce_250.pdf, id=1747, 794.97pt x 505.89pt>
+[105] <./images/plot_reinforce_250.pdf, id=1748, 794.97pt x 505.89pt>
 File: ./images/plot_reinforce_250.pdf Graphic file (type pdf)
 
 <use ./images/plot_reinforce_250.pdf>
-Package pdftex.def Info: ./images/plot_reinforce_250.pdf used on input line 111
-9.
+Package pdftex.def Info: ./images/plot_reinforce_250.pdf used on input line 112
+0.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1117--1121
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1118--1122
  []|  [] 
  []
 
 [106]
-Overfull \hbox (6.01523pt too wide) in paragraph at lines 1123--1124
+Overfull \hbox (6.01523pt too wide) in paragraph at lines 1124--1125
 []\OT1/cmr/m/n/14.4 The learn-ing curves are plot-ted in Fig-ure []23[]. Here e
 ach curve was smoothed
  []
@@ -1139,16 +1144,16 @@ n des sys-temes
  []
 
 [121])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1148.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1149.
  [122]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1149.
  (./Thesis-draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1149.
 
 Package rerunfilecheck Info: File `Thesis-draft.out' has not changed.
 (rerunfilecheck)             Checksum: 0F13431D4B596E56121E0A9E833A402F;6758.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1148.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1149.
  ) 
 Here is how much of TeX's memory you used:
  9413 strings out of 494437
@@ -1175,10 +1180,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basi
 c/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017
 basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis-draft.pdf (123 pages, 1462272 bytes).
+Output written on Thesis-draft.pdf (123 pages, 1462163 bytes).
 PDF statistics:
- 2038 PDF objects out of 2073 (max. 8388607)
- 1666 compressed objects within 17 object streams
+ 2039 PDF objects out of 2073 (max. 8388607)
+ 1667 compressed objects within 17 object streams
  508 named destinations out of 1000 (max. 500000)
  831 words of extra memory for PDF output out of 10000 (max. 10000000)
 
