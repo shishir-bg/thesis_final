@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  24 OCT 2018 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  24 OCT 2018 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,8 +500,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \clearpage
-                [1
+l.67 	\clearpage
+                 [1
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 69--72
@@ -590,18 +590,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--153
 File: ./images/agent-env-rl.png Graphic file (type png)
 
 <use ./images/agent-env-rl.png>
-Package pdftex.def Info: ./images/agent-env-rl.png used on input line 175.
+Package pdftex.def Info: ./images/agent-env-rl.png used on input line 176.
 (pdftex.def)             Requested size: 435.62643pt x 175.6558pt.
- [30] [31 <./images/agent-env-rl.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
+ [30]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 184.
 
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
- [32]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
+ [31 <./images/agent-env-rl.png>] [32]
 Missing character: There is no Ë in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no Ë in font cmr12!
@@ -626,8 +626,7 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-
-[33]
+ [33]
 Missing character: There is no Ë in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no Ë in font cmr12!
@@ -683,38 +682,39 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
- [35] <./images/user-env4-2.png, id=882, 795.97375pt x 651.43375pt>
+
+<./images/user-env4-2.png, id=876, 795.97375pt x 651.43375pt>
 File: ./images/user-env4-2.png Graphic file (type png)
 
 <use ./images/user-env4-2.png>
-Package pdftex.def Info: ./images/user-env4-2.png used on input line 259.
+Package pdftex.def Info: ./images/user-env4-2.png used on input line 260.
 (pdftex.def)             Requested size: 517.37682pt x 423.42691pt.
 
-Overfull \hbox (47.62183pt too wide) in paragraph at lines 259--262
+Overfull \hbox (47.62183pt too wide) in paragraph at lines 260--263
  [][] 
  []
 
-[36] [37 <./images/user-env4-2.png>]
+[35] [36] [37 <./images/user-env4-2.png>]
 <./images/user-env.png, id=897, 541.02126pt x 501.875pt>
 File: ./images/user-env.png Graphic file (type png)
 
 <use ./images/user-env.png>
-Package pdftex.def Info: ./images/user-env.png used on input line 266.
+Package pdftex.def Info: ./images/user-env.png used on input line 267.
 (pdftex.def)             Requested size: 351.65964pt x 326.21487pt.
  [38]
 <./images/user-env3.png, id=903, 994.71625pt x 726.715pt>
 File: ./images/user-env3.png Graphic file (type png)
 
 <use ./images/user-env3.png>
-Package pdftex.def Info: ./images/user-env3.png used on input line 275.
+Package pdftex.def Info: ./images/user-env3.png used on input line 276.
 (pdftex.def)             Requested size: 497.3569pt x 363.3566pt.
 
-Overfull \hbox (27.60191pt too wide) in paragraph at lines 275--277
+Overfull \hbox (27.60191pt too wide) in paragraph at lines 276--278
  [][] 
  []
 
 [39 <./images/user-env.png>]
-Overfull \hbox (6.19237pt too wide) in paragraph at lines 279--280
+Overfull \hbox (6.19237pt too wide) in paragraph at lines 280--281
 \OT1/cmr/m/n/14.4 ance/response from a sim-u-lated user to the cur-rent ac-tion
 (statement/question)
  []
@@ -724,30 +724,30 @@ Overfull \hbox (6.19237pt too wide) in paragraph at lines 279--280
 File: ./images/mdp_methods.jpg Graphic file (type jpg)
 
 <use ./images/mdp_methods.jpg>
-Package pdftex.def Info: ./images/mdp_methods.jpg used on input line 283.
+Package pdftex.def Info: ./images/mdp_methods.jpg used on input line 284.
 (pdftex.def)             Requested size: 269.80615pt x 163.71048pt.
  [41 <./images/mdp_methods.jpg>] [42]pdfTeX warning (ext4): destination with th
 e same identifier (name{equation.3.13}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
-l.301 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.3.13}) has been already used, duplicate ignored
+l.302 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.301 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.3.13}) has been already used, duplicate ignored
+l.302 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.301 		\begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.3.13}) has been already used, duplicate ignored
+l.302 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.3.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.301 		\begin{equation}
-                        
+l.302 	\begin{equation}
+                       
 Missing character: There is no Ë in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no Ë in font cmr12!
@@ -755,7 +755,7 @@ Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--311
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
@@ -764,22 +764,22 @@ Missing character: There is no † in font cmr10!
 Missing character: There is no Ë in font cmr10!
 Missing character: There is no † in font cmr10!
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 316--318
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
 
  []
 
 [44] [45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
  []
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
@@ -817,7 +817,7 @@ Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Overfull \hbox (61.99759pt too wide) in paragraph at lines 431--431
+Overfull \hbox (61.99759pt too wide) in paragraph at lines 432--432
 [] 
  []
 
@@ -878,7 +878,7 @@ Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Overfull \hbox (18.60104pt too wide) in paragraph at lines 436--436
+Overfull \hbox (18.60104pt too wide) in paragraph at lines 437--437
 [] 
  []
 
@@ -886,7 +886,7 @@ Overfull \hbox (18.60104pt too wide) in paragraph at lines 436--436
 File: ./images/a-c.png Graphic file (type png)
 
 <use ./images/a-c.png>
-Package pdftex.def Info: ./images/a-c.png used on input line 469.
+Package pdftex.def Info: ./images/a-c.png used on input line 470.
 (pdftex.def)             Requested size: 294.50252pt x 222.83421pt.
 
 
@@ -900,27 +900,27 @@ Missing character: There is no † in font cmr12!
 File: ./images/neuralnetwork.png Graphic file (type png)
 
 <use ./images/neuralnetwork.png>
-Package pdftex.def Info: ./images/neuralnetwork.png used on input line 557.
+Package pdftex.def Info: ./images/neuralnetwork.png used on input line 558.
 (pdftex.def)             Requested size: 393.46732pt x 196.03102pt.
  [62] [63 <./images/neuralnetwork.png>]
 [64] [65] [66] [67] <./images/relu.pdf, id=1218, 829.0975pt x 538.01pt>
 File: ./images/relu.pdf Graphic file (type pdf)
 
 <use ./images/relu.pdf>
-Package pdftex.def Info: ./images/relu.pdf used on input line 632.
+Package pdftex.def Info: ./images/relu.pdf used on input line 633.
 (pdftex.def)             Requested size: 331.63313pt x 215.20018pt.
  [68] [69 <./images/relu.pdf>]
 <./images/sigmoid.pdf, id=1252, 709.65125pt x 458.71375pt>
 File: ./images/sigmoid.pdf Graphic file (type pdf)
 
 <use ./images/sigmoid.pdf>
-Package pdftex.def Info: ./images/sigmoid.pdf used on input line 653.
+Package pdftex.def Info: ./images/sigmoid.pdf used on input line 654.
 (pdftex.def)             Requested size: 283.85547pt x 183.48224pt.
  [70]
 <./images/tanh.pdf, id=1260, 829.0975pt x 538.01pt>
 File: ./images/tanh.pdf Graphic file (type pdf)
  <use ./images/tanh.pdf>
-Package pdftex.def Info: ./images/tanh.pdf used on input line 662.
+Package pdftex.def Info: ./images/tanh.pdf used on input line 663.
 (pdftex.def)             Requested size: 290.18848pt x 188.30632pt.
 
 [71 <./images/sigmoid.pdf>]
@@ -928,28 +928,28 @@ Package pdftex.def Info: ./images/tanh.pdf used on input line 662.
 File: ./images/nn-arch.png Graphic file (type png)
 
 <use ./images/nn-arch.png>
-Package pdftex.def Info: ./images/nn-arch.png used on input line 672.
+Package pdftex.def Info: ./images/nn-arch.png used on input line 673.
 (pdftex.def)             Requested size: 279.44615pt x 227.05pt.
  [72 <./images/tanh.pdf>]
 <./images/grad_descent.png, id=1310, 495.8525pt x 337.26pt>
 File: ./images/grad_descent.png Graphic file (type png)
 
 <use ./images/grad_descent.png>
-Package pdftex.def Info: ./images/grad_descent.png used on input line 682.
+Package pdftex.def Info: ./images/grad_descent.png used on input line 683.
 (pdftex.def)             Requested size: 396.68254pt x 269.80836pt.
  [73 <./images/nn-arch.png>] [74 <./images/grad_descent.png>] <./images/back_pr
 op.png, id=1326, 645.41125pt x 274.02374pt>
 File: ./images/back_prop.png Graphic file (type png)
 
 <use ./images/back_prop.png>
-Package pdftex.def Info: ./images/back_prop.png used on input line 693.
+Package pdftex.def Info: ./images/back_prop.png used on input line 694.
 (pdftex.def)             Requested size: 451.7848pt x 191.8153pt.
  [75 <./images/back_prop.png>] [76] [77] [78]
 [79] [80] [81] <./images/nn-actor.png, id=1418, 353.32pt x 327.2225pt>
 File: ./images/nn-actor.png Graphic file (type png)
 
 <use ./images/nn-actor.png>
-Package pdftex.def Info: ./images/nn-actor.png used on input line 822.
+Package pdftex.def Info: ./images/nn-actor.png used on input line 823.
 (pdftex.def)             Requested size: 211.99364pt x 196.335pt.
 
 
@@ -959,17 +959,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/a2c.jpg, id=1453, 779.91376pt x 512.91624pt>
 File: ./images/a2c.jpg Graphic file (type jpg)
  <use ./images/a2c.jpg>
-Package pdftex.def Info: ./images/a2c.jpg used on input line 846.
+Package pdftex.def Info: ./images/a2c.jpg used on input line 847.
 (pdftex.def)             Requested size: 467.95187pt x 307.75212pt.
 
-Overfull \hbox (10.19688pt too wide) in paragraph at lines 846--848
+Overfull \hbox (10.19688pt too wide) in paragraph at lines 847--849
  [][] 
  []
 
 [85 <./images/a2c.jpg>]
 File: ./images/nn-actor.png Graphic file (type png)
  <use ./images/nn-actor.png>
-Package pdftex.def Info: ./images/nn-actor.png used on input line 899.
+Package pdftex.def Info: ./images/nn-actor.png used on input line 900.
 (pdftex.def)             Requested size: 211.99364pt x 196.335pt.
 
 
@@ -979,14 +979,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ./images/nn-critic.png Graphic file (type png)
 
 <use ./images/nn-critic.png>
-Package pdftex.def Info: ./images/nn-critic.png used on input line 915.
+Package pdftex.def Info: ./images/nn-critic.png used on input line 916.
 (pdftex.def)             Requested size: 161.40424pt x 190.9147pt.
  [89 <./images/nn-critic.png>] [90] [91] [92]
 <./images/state-trans.png, id=1532, 428.60126pt x 358.33875pt>
 File: ./images/state-trans.png Graphic file (type png)
 
 <use ./images/state-trans.png>
-Package pdftex.def Info: ./images/state-trans.png used on input line 960.
+Package pdftex.def Info: ./images/state-trans.png used on input line 961.
 (pdftex.def)             Requested size: 300.01883pt x 250.83542pt.
 
 
@@ -999,37 +999,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [94 <./images/state-trans.png>] [95] [96
 
 ]
-Underfull \hbox (badness 1062) in paragraph at lines 1024--1024
+Underfull \hbox (badness 1062) in paragraph at lines 1025--1025
 []\OT1/cmr/m/n/14.4 Opens the sales con-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 1024--1024
+Underfull \hbox (badness 2653) in paragraph at lines 1025--1025
 \OT1/cmr/m/n/14.4 prod-uct re-lated sales
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 1024--1024
+Underfull \hbox (badness 4391) in paragraph at lines 1025--1025
 []\OT1/cmr/m/n/14.4 Do you store many
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 1024--1024
+Underfull \hbox (badness 1824) in paragraph at lines 1025--1025
 []\OT1/cmr/m/n/14.4 We of-fer one of the
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 1024--1024
+Underfull \hbox (badness 3138) in paragraph at lines 1025--1025
 []\OT1/cmr/m/n/14.4 Closes the deal and
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 1024--1024
+Underfull \hbox (badness 2293) in paragraph at lines 1025--1025
 \OT1/cmr/m/n/14.4 or would he like to
  []
 
 [97]
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1033
 
  []
 
@@ -1037,10 +1037,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
 File: ./images/plota2c_250_3.pdf Graphic file (type pdf)
 
 <use ./images/plota2c_250_3.pdf>
-Package pdftex.def Info: ./images/plota2c_250_3.pdf used on input line 1057.
+Package pdftex.def Info: ./images/plota2c_250_3.pdf used on input line 1058.
 (pdftex.def)             Requested size: 556.4752pt x 354.12057pt.
 
-Overfull \hbox (32.94801pt too wide) in paragraph at lines 1055--1059
+Overfull \hbox (32.94801pt too wide) in paragraph at lines 1056--1060
  []|  [] 
  []
 
@@ -1049,15 +1049,15 @@ Overfull \hbox (32.94801pt too wide) in paragraph at lines 1055--1059
 File: ./images/a2c-dis-fact.pdf Graphic file (type pdf)
 
 <use ./images/a2c-dis-fact.pdf>
-Package pdftex.def Info: ./images/a2c-dis-fact.pdf used on input line 1068.
+Package pdftex.def Info: ./images/a2c-dis-fact.pdf used on input line 1069.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1066--1070
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1067--1071
  []|  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1072
 
  []
 
@@ -1066,20 +1066,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1063--1071
 File: ./images/a2c_reward_mag.pdf Graphic file (type pdf)
 
 <use ./images/a2c_reward_mag.pdf>
-Package pdftex.def Info: ./images/a2c_reward_mag.pdf used on input line 1079.
+Package pdftex.def Info: ./images/a2c_reward_mag.pdf used on input line 1080.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1077--1081
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1078--1082
  []|  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1083
 
  []
 
 [103] [104 <./images/a2c_reward_mag.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
 
  []
 
@@ -1088,15 +1088,15 @@ File: ./images/plot_reinforce_250.pdf Graphic file (type pdf)
 
 <use ./images/plot_reinforce_250.pdf>
 Package pdftex.def Info: ./images/plot_reinforce_250.pdf used on input line 111
-8.
+9.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1116--1120
+Overfull \hbox (76.88373pt too wide) in paragraph at lines 1117--1121
  []|  [] 
  []
 
 [106]
-Overfull \hbox (6.01523pt too wide) in paragraph at lines 1122--1123
+Overfull \hbox (6.01523pt too wide) in paragraph at lines 1123--1124
 []\OT1/cmr/m/n/14.4 The learn-ing curves are plot-ted in Fig-ure []23[]. Here e
 ach curve was smoothed
  []
@@ -1139,16 +1139,16 @@ n des sys-temes
  []
 
 [121])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1148.
  [122]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1148.
  (./Thesis-draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1148.
 
 Package rerunfilecheck Info: File `Thesis-draft.out' has not changed.
 (rerunfilecheck)             Checksum: 0F13431D4B596E56121E0A9E833A402F;6758.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1148.
  ) 
 Here is how much of TeX's memory you used:
  9413 strings out of 494437
@@ -1157,7 +1157,7 @@ Here is how much of TeX's memory you used:
  12109 multiletter control sequences out of 15000+600000
  12670 words of font info for 49 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 30i,18n,33p,2853b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,18n,33p,2854b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -1175,7 +1175,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basi
 c/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017
 basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis-draft.pdf (123 pages, 1463192 bytes).
+Output written on Thesis-draft.pdf (123 pages, 1462242 bytes).
 PDF statistics:
  2038 PDF objects out of 2073 (max. 8388607)
  1666 compressed objects within 17 object streams
