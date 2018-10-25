@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  24 OCT 2018 23:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 22 language(s) loaded.
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/local/texlive/2017basic/texmf-dist/tex/latex/extsizes/size14.clo
-File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
@@ -440,14 +440,14 @@ e
 * \oddsidemargin=0.0pt
 * \evensidemargin=-15.36449pt
 * \topmargin=14.45377pt
-* \headheight=14.0pt
+* \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=14.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=24.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -519,40 +519,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
 ] [4
 
-] (./Thesis-draft.toc
-Overfull \hbox (11.78085pt too wide) in paragraph at lines 7--7
- [][] [][]\OT1/cmr/m/n/14.4 Dialog Pol-icy trained with End-to-End Su-per-vised
- Learn- 
- []
+] (./Thesis-draft.toc [5
 
-[5
-
-] [6] [7])
+] [6])
 \tf@toc=\write4
 \openout4 = `Thesis-draft.toc'.
 
- [8] (./Thesis-draft.lof)
+ [7] (./Thesis-draft.lof)
 \tf@lof=\write5
 \openout5 = `Thesis-draft.lof'.
 
- (./Thesis-draft.lot)
+
+(./Thesis-draft.lot)
 \tf@lot=\write6
 \openout6 = `Thesis-draft.lot'.
 
- [9
+ [8
 
-] [10] [11]
-[12] [13]
+] [9] [10]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [14] [15] [16] [17]
-<./images/sys-arch1.jpg, id=683, 821.0675pt x 441.65pt>
+ [11] [12] [13] [14]
+<./images/sys-arch1.jpg, id=668, 821.0675pt x 441.65pt>
 File: ./images/sys-arch1.jpg Graphic file (type jpg)
 
 <use ./images/sys-arch1.jpg>
 Package pdftex.def Info: ./images/sys-arch1.jpg used on input line 128.
 (pdftex.def)             Requested size: 451.58853pt x 242.90823pt.
- [18] [19] [20 <./images/sys-arch1.jpg>]
+ [15] [16 <./images/sys-arch1.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
@@ -570,120 +564,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-[21]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
-[22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
-[23] [24]
+[18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 150--153
 
  []
 
-[25] [26] [27] [28] [29]
-<./images/agent-env-rl.png, id=822, 435.6275pt x 175.65625pt>
+[20] [21] [22] [23]
+<./images/agent-env-rl.png, id=795, 435.6275pt x 175.65625pt>
 File: ./images/agent-env-rl.png Graphic file (type png)
 
 <use ./images/agent-env-rl.png>
 Package pdftex.def Info: ./images/agent-env-rl.png used on input line 176.
 (pdftex.def)             Requested size: 435.62643pt x 175.6558pt.
- [30]
+ [24]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 184.
 
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
- [31 <./images/agent-env-rl.png>] [32]
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+ [25 <./images/agent-env-rl.png>]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
- [33]
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+ [26]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
- [34]
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+ [27]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 
-<./images/user-env4-2.png, id=876, 795.97375pt x 651.43375pt>
+<./images/user-env4-2.png, id=847, 795.97375pt x 651.43375pt>
 File: ./images/user-env4-2.png Graphic file (type png)
 
 <use ./images/user-env4-2.png>
@@ -694,15 +688,15 @@ Overfull \hbox (47.62183pt too wide) in paragraph at lines 260--263
  [][] 
  []
 
-[35] [36] [37 <./images/user-env4-2.png>]
-<./images/user-env.png, id=897, 541.02126pt x 501.875pt>
+[28] [29] [30 <./images/user-env4-2.png>]
+<./images/user-env.png, id=867, 541.02126pt x 501.875pt>
 File: ./images/user-env.png Graphic file (type png)
 
 <use ./images/user-env.png>
 Package pdftex.def Info: ./images/user-env.png used on input line 267.
 (pdftex.def)             Requested size: 351.65964pt x 326.21487pt.
- [38]
-<./images/user-env3.png, id=903, 994.71625pt x 726.715pt>
+
+<./images/user-env3.png, id=869, 994.71625pt x 726.715pt>
 File: ./images/user-env3.png Graphic file (type png)
 
 <use ./images/user-env3.png>
@@ -713,22 +707,15 @@ Overfull \hbox (27.60191pt too wide) in paragraph at lines 276--278
  [][] 
  []
 
-[39 <./images/user-env.png>]
-Overfull \hbox (6.19237pt too wide) in paragraph at lines 280--281
-\OT1/cmr/m/n/14.4 ance/response from a sim-u-lated user to the cur-rent ac-tion
-(statement/question)
- []
-
-[40 <./images/user-env3.png>]
-<./images/mdp_methods.jpg, id=915, 385.44pt x 233.87375pt>
+[31 <./images/user-env.png>] [32] [33 <./images/user-env3.png>]
+<./images/mdp_methods.jpg, id=885, 385.44pt x 233.87375pt>
 File: ./images/mdp_methods.jpg Graphic file (type jpg)
 
 <use ./images/mdp_methods.jpg>
 Package pdftex.def Info: ./images/mdp_methods.jpg used on input line 284.
 (pdftex.def)             Requested size: 269.80615pt x 163.71048pt.
- [41 <./images/mdp_methods.jpg>] [42]pdfTeX warning (ext4): destination with th
-e same identifier (name{equation.3.13}) has been already used, duplicate ignore
-d
+ [34 <./images/mdp_methods.jpg>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.3.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.302 	\begin{equation}
@@ -748,8 +735,8 @@ ier (name{equation.3.13}) has been already used, duplicate ignored
                    \relax 
 l.302 	\begin{equation}
                        
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
@@ -759,11 +746,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-[43]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 317--319
 
  []
@@ -773,19 +760,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--321
 
  []
 
-[44] [45] [46]
+[36]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
  []
 
-[47]
+[37] [38]
 Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
-[48] [49]
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+[39]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
@@ -794,39 +788,14 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-
-Overfull \hbox (61.99759pt too wide) in paragraph at lines 432--432
-[] 
- []
-
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
@@ -835,26 +804,19 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+ [40]
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
@@ -867,8 +829,8 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
@@ -877,12 +839,35 @@ Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
-
-Overfull \hbox (18.60104pt too wide) in paragraph at lines 437--437
-[] 
- []
-
-[50] [51] <./images/a-c.png, id=1075, 490.83376pt x 371.3875pt>
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+ [41] <./images/a-c.png, id=1030, 490.83376pt x 371.3875pt>
 File: ./images/a-c.png Graphic file (type png)
 
 <use ./images/a-c.png>
@@ -892,53 +877,56 @@ Package pdftex.def Info: ./images/a-c.png used on input line 470.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52] [53 <./images/a-c.png>] [54] [55] [56] [57] [58] [59] [60]
+[42] [43 <./images/a-c.png>] [44] [45] [46] [47] [48]
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no † in font cmr12!
- [61]
-<./images/neuralnetwork.png, id=1176, 562.1pt x 280.04625pt>
+ [49]
+<./images/neuralnetwork.png, id=1126, 562.1pt x 280.04625pt>
 File: ./images/neuralnetwork.png Graphic file (type png)
 
 <use ./images/neuralnetwork.png>
 Package pdftex.def Info: ./images/neuralnetwork.png used on input line 558.
 (pdftex.def)             Requested size: 393.46732pt x 196.03102pt.
- [62] [63 <./images/neuralnetwork.png>]
-[64] [65] [66] [67] <./images/relu.pdf, id=1218, 829.0975pt x 538.01pt>
-File: ./images/relu.pdf Graphic file (type pdf)
 
-<use ./images/relu.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50] [51 <./images/neuralnetwork.png>] [52] [53]
+<./images/relu.pdf, id=1158, 829.0975pt x 538.01pt>
+File: ./images/relu.pdf Graphic file (type pdf)
+ <use ./images/relu.pdf>
 Package pdftex.def Info: ./images/relu.pdf used on input line 633.
 (pdftex.def)             Requested size: 331.63313pt x 215.20018pt.
- [68] [69 <./images/relu.pdf>]
-<./images/sigmoid.pdf, id=1252, 709.65125pt x 458.71375pt>
+
+[54] [55 <./images/relu.pdf>]
+<./images/sigmoid.pdf, id=1195, 709.65125pt x 458.71375pt>
 File: ./images/sigmoid.pdf Graphic file (type pdf)
 
 <use ./images/sigmoid.pdf>
 Package pdftex.def Info: ./images/sigmoid.pdf used on input line 654.
 (pdftex.def)             Requested size: 283.85547pt x 183.48224pt.
- [70]
-<./images/tanh.pdf, id=1260, 829.0975pt x 538.01pt>
+ <./images/tanh.pdf, id=1197, 829.0975pt x 538.01pt>
 File: ./images/tanh.pdf Graphic file (type pdf)
- <use ./images/tanh.pdf>
+
+<use ./images/tanh.pdf>
 Package pdftex.def Info: ./images/tanh.pdf used on input line 663.
 (pdftex.def)             Requested size: 290.18848pt x 188.30632pt.
-
-[71 <./images/sigmoid.pdf>]
-<./images/nn-arch.png, id=1284, 465.74pt x 378.41376pt>
+ [56 <./images/sigmoid.pdf>]
+<./images/nn-arch.png, id=1222, 465.74pt x 378.41376pt>
 File: ./images/nn-arch.png Graphic file (type png)
 
 <use ./images/nn-arch.png>
 Package pdftex.def Info: ./images/nn-arch.png used on input line 673.
 (pdftex.def)             Requested size: 279.44615pt x 227.05pt.
- [72 <./images/tanh.pdf>]
-<./images/grad_descent.png, id=1310, 495.8525pt x 337.26pt>
+ [57 <./images/tanh.pdf>]
+<./images/grad_descent.png, id=1247, 495.8525pt x 337.26pt>
 File: ./images/grad_descent.png Graphic file (type png)
 
 <use ./images/grad_descent.png>
 Package pdftex.def Info: ./images/grad_descent.png used on input line 683.
 (pdftex.def)             Requested size: 396.68254pt x 269.80836pt.
- [73 <./images/nn-arch.png>] [74 <./images/grad_descent.png>] <./images/back_pr
-op.png, id=1326, 645.41125pt x 274.02374pt>
+ [58 <./images/nn-arch.png>] [59 <./images/grad_descent.png>] <./images/back_pr
+op.png, id=1263, 645.41125pt x 274.02374pt>
 File: ./images/back_prop.png Graphic file (type png)
 
 <use ./images/back_prop.png>
@@ -949,8 +937,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 698--721
 
  []
 
-[75 <./images/back_prop.png>] [76] [77] [78] [79] [80] [81]
-<./images/nn-actor.png, id=1419, 353.32pt x 327.2225pt>
+[60 <./images/back_prop.png>] [61] [62] [63] [64]
+<./images/nn-actor.png, id=1341, 353.32pt x 327.2225pt>
 File: ./images/nn-actor.png Graphic file (type png)
 
 <use ./images/nn-actor.png>
@@ -960,8 +948,8 @@ Package pdftex.def Info: ./images/nn-actor.png used on input line 824.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82] [83 <./images/nn-actor.png>] [84]
-<./images/a2c.jpg, id=1454, 779.91376pt x 512.91624pt>
+[65] [66 <./images/nn-actor.png>]
+<./images/a2c.jpg, id=1378, 779.91376pt x 512.91624pt>
 File: ./images/a2c.jpg Graphic file (type jpg)
  <use ./images/a2c.jpg>
 Package pdftex.def Info: ./images/a2c.jpg used on input line 848.
@@ -971,23 +959,30 @@ Overfull \hbox (10.19688pt too wide) in paragraph at lines 848--850
  [][] 
  []
 
-[85 <./images/a2c.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[67]
 File: ./images/nn-actor.png Graphic file (type png)
  <use ./images/nn-actor.png>
 Package pdftex.def Info: ./images/nn-actor.png used on input line 901.
 (pdftex.def)             Requested size: 211.99364pt x 196.335pt.
-
+ [68 <./images/a2c.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86] [87] [88] <./images/nn-critic.png, id=1496, 269.005pt x 318.18875pt>
+[69] <./images/nn-critic.png, id=1418, 269.005pt x 318.18875pt>
 File: ./images/nn-critic.png Graphic file (type png)
 
 <use ./images/nn-critic.png>
 Package pdftex.def Info: ./images/nn-critic.png used on input line 917.
 (pdftex.def)             Requested size: 161.40424pt x 190.9147pt.
- [89 <./images/nn-critic.png>] [90] [91] [92]
-<./images/state-trans.png, id=1533, 428.60126pt x 358.33875pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[70] [71 <./images/nn-critic.png>] [72]
+<./images/state-trans.png, id=1448, 428.60126pt x 358.33875pt>
 File: ./images/state-trans.png Graphic file (type png)
 
 <use ./images/state-trans.png>
@@ -997,67 +992,37 @@ Package pdftex.def Info: ./images/state-trans.png used on input line 962.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[93]
+[73]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[94 <./images/state-trans.png>] [95] [96
+[74 <./images/state-trans.png>] [75] [76
 
 ]
-Underfull \hbox (badness 1062) in paragraph at lines 1026--1026
-[]\OT1/cmr/m/n/14.4 Opens the sales con-
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 1026--1026
-\OT1/cmr/m/n/14.4 prod-uct re-lated sales
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 1026--1026
-[]\OT1/cmr/m/n/14.4 Do you store many
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 1026--1026
-[]\OT1/cmr/m/n/14.4 We of-fer one of the
- []
-
-
-Underfull \hbox (badness 3138) in paragraph at lines 1026--1026
-[]\OT1/cmr/m/n/14.4 Closes the deal and
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 1026--1026
-\OT1/cmr/m/n/14.4 or would he like to
- []
-
-[97]
 Underfull \hbox (badness 10000) in paragraph at lines 1031--1034
 
  []
 
-[98] <./images/plota2c_250_3.pdf, id=1577, 794.97pt x 505.89pt>
+[77] <./images/plota2c_250_3.pdf, id=1487, 794.97pt x 505.89pt>
 File: ./images/plota2c_250_3.pdf Graphic file (type pdf)
 
 <use ./images/plota2c_250_3.pdf>
 Package pdftex.def Info: ./images/plota2c_250_3.pdf used on input line 1059.
 (pdftex.def)             Requested size: 556.4752pt x 354.12057pt.
 
-Overfull \hbox (32.94801pt too wide) in paragraph at lines 1057--1061
+Overfull \hbox (32.4258pt too wide) in paragraph at lines 1057--1061
  []|  [] 
  []
 
-[99] [100 <./images/plota2c_250_3.pdf>]
-<./images/a2c-dis-fact.pdf, id=1630, 794.97pt x 505.89pt>
+[78] [79 <./images/plota2c_250_3.pdf>]
+<./images/a2c-dis-fact.pdf, id=1544, 794.97pt x 505.89pt>
 File: ./images/a2c-dis-fact.pdf Graphic file (type pdf)
 
 <use ./images/a2c-dis-fact.pdf>
 Package pdftex.def Info: ./images/a2c-dis-fact.pdf used on input line 1070.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1068--1072
+Overfull \hbox (76.36151pt too wide) in paragraph at lines 1068--1072
  []|  [] 
  []
 
@@ -1066,15 +1031,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1065--1073
 
  []
 
-[101] [102 <./images/a2c-dis-fact.pdf>]
-<./images/a2c_reward_mag.pdf, id=1686, 794.97pt x 505.89pt>
+[80] [81 <./images/a2c-dis-fact.pdf>]
+<./images/a2c_reward_mag.pdf, id=1599, 794.97pt x 505.89pt>
 File: ./images/a2c_reward_mag.pdf Graphic file (type pdf)
 
 <use ./images/a2c_reward_mag.pdf>
 Package pdftex.def Info: ./images/a2c_reward_mag.pdf used on input line 1081.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1079--1083
+Overfull \hbox (76.36151pt too wide) in paragraph at lines 1079--1083
  []|  [] 
  []
 
@@ -1083,12 +1048,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1076--1084
 
  []
 
-[103] [104 <./images/a2c_reward_mag.pdf>]
+[82] [83 <./images/a2c_reward_mag.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1094--1097
 
  []
 
-[105] <./images/plot_reinforce_250.pdf, id=1748, 794.97pt x 505.89pt>
+<./images/plot_reinforce_250.pdf, id=1654, 794.97pt x 505.89pt>
 File: ./images/plot_reinforce_250.pdf Graphic file (type pdf)
 
 <use ./images/plot_reinforce_250.pdf>
@@ -1096,31 +1061,31 @@ Package pdftex.def Info: ./images/plot_reinforce_250.pdf used on input line 112
 0.
 (pdftex.def)             Requested size: 635.97687pt x 404.71254pt.
 
-Overfull \hbox (76.88373pt too wide) in paragraph at lines 1118--1122
+Overfull \hbox (76.36151pt too wide) in paragraph at lines 1118--1122
  []|  [] 
  []
 
-[106]
-Overfull \hbox (6.01523pt too wide) in paragraph at lines 1124--1125
-[]\OT1/cmr/m/n/14.4 The learn-ing curves are plot-ted in Fig-ure []23[]. Here e
-ach curve was smoothed
- []
+[84] [85 <./images/plot_reinforce_250.pdf>] [86] [87
 
-[107 <./images/plot_reinforce_250.pdf>] [108] [109] [110
-
-] [111]
-(./Thesis-draft.bbl
+] [88] (./Thesis-draft.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no © in font cmr12!
- [112
+
+[89
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ‡ in font cmr12!
- [113] [114] [115] [116]
+ [90]
+Underfull \hbox (badness 1603) in paragraph at lines 137--139
+[]\OT1/cmr/m/n/12 A. Bor-des and J. We-ston, ``Learn-ing end-to-end goal-orient
+ed di-a-log,'' \OT1/cmr/m/it/12 CoRR\OT1/cmr/m/n/12 ,
+ []
+
+[91] [92]
 Missing character: There is no Å in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -1130,22 +1095,15 @@ Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
- [117]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [118] [119] [120]
+ [93] [94] [95]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-Underfull \hbox (badness 2326) in paragraph at lines 432--434
-[]\OT1/cmr/m/n/14.4 A. Cauchy, ``M^^Sethode g^^Sen^^Serale pour la r^^Sesolutio
-n des sys-temes
- []
-
-[121])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1149.
- [122]
+ [96]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1149.
  (./Thesis-draft.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1149.
@@ -1156,34 +1114,38 @@ Package rerunfilecheck Info: File `Thesis-draft.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1149.
  ) 
 Here is how much of TeX's memory you used:
- 9413 strings out of 494437
- 141751 string characters out of 6166644
- 258928 words of memory out of 5000000
- 12109 multiletter control sequences out of 15000+600000
- 12670 words of font info for 49 fonts, out of 8000000 for 9000
+ 9400 strings out of 494437
+ 141611 string characters out of 6166644
+ 259895 words of memory out of 5000000
+ 12115 multiletter control sequences out of 15000+600000
+ 14225 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 30i,18n,33p,2854b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,18n,33p,2854b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017basic/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017basic/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basi
-c/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017
-basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis-draft.pdf (123 pages, 1462163 bytes).
+2.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmex8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017b
+asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+17basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
+live/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis-draft.pdf (97 pages, 1473230 bytes).
 PDF statistics:
- 2039 PDF objects out of 2073 (max. 8388607)
- 1667 compressed objects within 17 object streams
- 508 named destinations out of 1000 (max. 500000)
+ 1938 PDF objects out of 2073 (max. 8388607)
+ 1589 compressed objects within 16 object streams
+ 482 named destinations out of 1000 (max. 500000)
  831 words of extra memory for PDF output out of 10000 (max. 10000000)
 

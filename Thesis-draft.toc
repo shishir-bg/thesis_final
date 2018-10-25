@@ -1,91 +1,91 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{10}{section.1}
-\contentsline {subsection}{\numberline {1.1}Overview}{10}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Motivation}{11}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}State of the Art}{13}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}Dialog Policy trained with Reinforcement Learning}{13}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Dialog Policy trained with End-to-End Supervised Learning}{15}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}Dialog Policy trained with a Combined Approach}{16}{subsubsection.1.3.3}
-\contentsline {section}{\numberline {2}Dialog Systems}{18}{section.2}
-\contentsline {subsection}{\numberline {2.1}Overview}{18}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}System Architecture}{18}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Dialog Management}{20}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Dialog State Tracking (DST)}{20}{subsubsection.2.3.1}
-\contentsline {paragraph}{\numberline {2.3.1.1}Information State DST}{21}{paragraph.2.3.1.1}
-\contentsline {paragraph}{\numberline {2.3.1.2}Generative DST}{21}{paragraph.2.3.1.2}
-\contentsline {paragraph}{\numberline {2.3.1.3}Discriminative DST}{22}{paragraph.2.3.1.3}
-\contentsline {paragraph}{\numberline {2.3.1.4}Our Approach}{23}{paragraph.2.3.1.4}
-\contentsline {subsubsection}{\numberline {2.3.2}Dialog Policy}{24}{subsubsection.2.3.2}
-\contentsline {paragraph}{\numberline {2.3.2.1}Our Approach}{25}{paragraph.2.3.2.1}
-\contentsline {subsection}{\numberline {2.4}User Simulation}{25}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Rule Based Simulation}{26}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Probabilistic Model Based Simulation}{26}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Our Approach}{27}{subsubsection.2.4.3}
-\contentsline {subsection}{\numberline {2.5}Applications}{28}{subsection.2.5}
-\contentsline {section}{\numberline {3}Technical Background}{29}{section.3}
-\contentsline {subsection}{\numberline {3.1}Overview}{29}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Reinforcement Learning (RL)}{30}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Markov Decision Processes (MDP)}{31}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Optimality}{34}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Composing Dialog Management as an MDP}{36}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Dialog Policy Optimization}{41}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Value Iterative Methods}{42}{subsubsection.3.5.1}
-\contentsline {paragraph}{\numberline {3.5.1.1}Dynamic Programming}{43}{paragraph.3.5.1.1}
-\contentsline {paragraph}{\numberline {3.5.1.2}Monte Carlo Learning }{44}{paragraph.3.5.1.2}
-\contentsline {paragraph}{\numberline {3.5.1.3}Temporal Difference(TD) Learning }{44}{paragraph.3.5.1.3}
-\contentsline {paragraph}{\numberline {3.5.1.4}Sample Efficiency}{47}{paragraph.3.5.1.4}
-\contentsline {paragraph}{\numberline {3.5.1.5}Function Approximation}{48}{paragraph.3.5.1.5}
-\contentsline {subsubsection}{\numberline {3.5.2}Policy Iterative Methods}{49}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Actor-Critic Methods}{52}{subsubsection.3.5.3}
-\contentsline {subsection}{\numberline {3.6}Evaluation and Reward Estimation}{55}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Heuristic Rewards}{55}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}The Paradise Framework}{56}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Reward Shaping}{56}{subsubsection.3.6.3}
-\contentsline {subsection}{\numberline {3.7}Auxiliary RL terminology}{57}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Model-based and Model-free}{58}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Episodic and Continuous Tasks}{58}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}On-line and Off-line}{59}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}On Policy and Off Policy}{59}{subsubsection.3.7.4}
-\contentsline {subsubsection}{\numberline {3.7.5}Exploration and Exploitation}{59}{subsubsection.3.7.5}
-\contentsline {section}{\numberline {4}Deep Learning}{61}{section.4}
-\contentsline {subsection}{\numberline {4.1}Overview}{61}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Deep Feedforward Networks}{61}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Loss Functions}{63}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Maximum Likelihood Estimation}{64}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Approximating Conditional Distributions with Maximum Likelihood}{65}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Output Units}{66}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Linear Units}{66}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Sigmoid Units}{66}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Softmax Units}{67}{subsubsection.4.4.3}
-\contentsline {subsection}{\numberline {4.5}Hidden Units}{68}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Rectified Linear Units(ReLU)}{68}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}The Hyperbolic Tangent and Logistic Sigmoid}{70}{subsubsection.4.5.2}
-\contentsline {subsection}{\numberline {4.6}Architecture}{72}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Gradient Based Learning}{73}{subsection.4.7}
-\contentsline {subsubsection}{\numberline {4.7.1}Back-Propagation}{75}{subsubsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.2}Stochastic Gradient Descent(SGD)}{77}{subsubsection.4.7.2}
-\contentsline {section}{\numberline {5}Neural Dialog Management}{79}{section.5}
-\contentsline {subsection}{\numberline {5.1}Overview}{79}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}REINFORCE}{79}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}REINFORCE Algorithm}{81}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Policy Network}{82}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}Advantage Actor Critic}{83}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Advantage Function}{84}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}A2C Algorithm}{85}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Actor Network}{86}{subsubsection.5.3.3}
-\contentsline {subsubsection}{\numberline {5.3.4}Critic Network}{89}{subsubsection.5.3.4}
-\contentsline {section}{\numberline {6}Experiments and Results}{91}{section.6}
-\contentsline {subsection}{\numberline {6.1}Overview}{91}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Learning Simple Dialog Strategies}{91}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Experimental Setup}{92}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Learning with A2C}{98}{subsubsection.6.2.2}
-\contentsline {paragraph}{\numberline {6.2.2.1}Results}{98}{paragraph.6.2.2.1}
-\contentsline {paragraph}{\numberline {6.2.2.2}Effect of the Discount Factor}{101}{paragraph.6.2.2.2}
-\contentsline {paragraph}{\numberline {6.2.2.3}Effect of Reward Magnitude}{103}{paragraph.6.2.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3}Learning with REINFORCE}{105}{subsubsection.6.2.3}
-\contentsline {paragraph}{\numberline {6.2.3.1}Results}{105}{paragraph.6.2.3.1}
-\contentsline {subsection}{\numberline {6.3}Summary}{109}{subsection.6.3}
-\contentsline {section}{\numberline {7}Conclusions}{110}{section.7}
-\contentsline {subsection}{\numberline {7.1}Conclusion}{110}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Future Work}{110}{subsection.7.2}
-\contentsline {section}{\numberline {8}References}{112}{section.8}
+\contentsline {section}{\numberline {1}Introduction}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Overview}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Motivation}{10}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}State of the Art}{11}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Dialog Policy trained with Reinforcement Learning}{11}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Dialog Policy trained with End-to-End Supervised Learning}{12}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Dialog Policy trained with a Combined Approach}{13}{subsubsection.1.3.3}
+\contentsline {section}{\numberline {2}Dialog Systems}{15}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview}{15}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}System Architecture}{15}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Dialog Management}{16}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Dialog State Tracking (DST)}{17}{subsubsection.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.1.1}Information State DST}{17}{paragraph.2.3.1.1}
+\contentsline {paragraph}{\numberline {2.3.1.2}Generative DST}{17}{paragraph.2.3.1.2}
+\contentsline {paragraph}{\numberline {2.3.1.3}Discriminative DST}{18}{paragraph.2.3.1.3}
+\contentsline {paragraph}{\numberline {2.3.1.4}Our Approach}{18}{paragraph.2.3.1.4}
+\contentsline {subsubsection}{\numberline {2.3.2}Dialog Policy}{19}{subsubsection.2.3.2}
+\contentsline {paragraph}{\numberline {2.3.2.1}Our Approach}{20}{paragraph.2.3.2.1}
+\contentsline {subsection}{\numberline {2.4}User Simulation}{20}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Rule Based Simulation}{21}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Probabilistic Model Based Simulation}{21}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Our Approach}{22}{subsubsection.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Applications}{22}{subsection.2.5}
+\contentsline {section}{\numberline {3}Technical Background}{23}{section.3}
+\contentsline {subsection}{\numberline {3.1}Overview}{23}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Reinforcement Learning (RL)}{23}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Markov Decision Processes (MDP)}{25}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Optimality}{27}{subsubsection.3.3.1}
+\contentsline {subsection}{\numberline {3.4}Composing Dialog Management as an MDP}{28}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Dialog Policy Optimization}{34}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Value Iterative Methods}{35}{subsubsection.3.5.1}
+\contentsline {paragraph}{\numberline {3.5.1.1}Dynamic Programming}{35}{paragraph.3.5.1.1}
+\contentsline {paragraph}{\numberline {3.5.1.2}Monte Carlo Learning }{36}{paragraph.3.5.1.2}
+\contentsline {paragraph}{\numberline {3.5.1.3}Temporal Difference(TD) Learning }{36}{paragraph.3.5.1.3}
+\contentsline {paragraph}{\numberline {3.5.1.4}Sample Efficiency}{38}{paragraph.3.5.1.4}
+\contentsline {paragraph}{\numberline {3.5.1.5}Function Approximation}{39}{paragraph.3.5.1.5}
+\contentsline {subsubsection}{\numberline {3.5.2}Policy Iterative Methods}{40}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Actor-Critic Methods}{42}{subsubsection.3.5.3}
+\contentsline {subsection}{\numberline {3.6}Evaluation and Reward Estimation}{44}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Heuristic Rewards}{45}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}The Paradise Framework}{45}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Reward Shaping}{46}{subsubsection.3.6.3}
+\contentsline {subsection}{\numberline {3.7}Auxiliary RL terminology}{47}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Model-based and Model-free}{47}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Episodic and Continuous Tasks}{47}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}On-line and Off-line}{48}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}On Policy and Off Policy}{48}{subsubsection.3.7.4}
+\contentsline {subsubsection}{\numberline {3.7.5}Exploration and Exploitation}{48}{subsubsection.3.7.5}
+\contentsline {section}{\numberline {4}Deep Learning}{49}{section.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{49}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Deep Feedforward Networks}{49}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Loss Functions}{50}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Maximum Likelihood Estimation}{51}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Approximating Conditional Distributions with Maximum Likelihood}{52}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Output Units}{53}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Linear Units}{53}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Sigmoid Units}{53}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Softmax Units}{53}{subsubsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5}Hidden Units}{54}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Rectified Linear Units(ReLU)}{54}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}The Hyperbolic Tangent and Logistic Sigmoid}{56}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Architecture}{57}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Gradient Based Learning}{58}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Back-Propagation}{60}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Stochastic Gradient Descent(SGD)}{61}{subsubsection.4.7.2}
+\contentsline {section}{\numberline {5}Neural Dialog Management}{63}{section.5}
+\contentsline {subsection}{\numberline {5.1}Overview}{63}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}REINFORCE}{63}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}REINFORCE Algorithm}{64}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Policy Network}{64}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Advantage Actor Critic}{65}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Advantage Function}{66}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}A2C Algorithm}{67}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Actor Network}{69}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Critic Network}{70}{subsubsection.5.3.4}
+\contentsline {section}{\numberline {6}Experiments and Results}{72}{section.6}
+\contentsline {subsection}{\numberline {6.1}Overview}{72}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Learning Simple Dialog Strategies}{72}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Experimental Setup}{72}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Learning with A2C}{77}{subsubsection.6.2.2}
+\contentsline {paragraph}{\numberline {6.2.2.1}Results}{77}{paragraph.6.2.2.1}
+\contentsline {paragraph}{\numberline {6.2.2.2}Effect of the Discount Factor}{80}{paragraph.6.2.2.2}
+\contentsline {paragraph}{\numberline {6.2.2.3}Effect of Reward Magnitude}{82}{paragraph.6.2.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3}Learning with REINFORCE}{84}{subsubsection.6.2.3}
+\contentsline {paragraph}{\numberline {6.2.3.1}Results}{84}{paragraph.6.2.3.1}
+\contentsline {subsection}{\numberline {6.3}Summary}{86}{subsection.6.3}
+\contentsline {section}{\numberline {7}Conclusions}{87}{section.7}
+\contentsline {subsection}{\numberline {7.1}Conclusion}{87}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Future Work}{87}{subsection.7.2}
+\contentsline {section}{\numberline {8}References}{89}{section.8}
