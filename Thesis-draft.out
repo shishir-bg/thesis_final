@@ -27,7 +27,7 @@
 \BOOKMARK [2][-]{subsection.3.3}{Markov Decision Processes \(MDP\)}{section.3}% 27
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Optimality}{subsection.3.3}% 28
 \BOOKMARK [2][-]{subsection.3.4}{Composing Dialog Management as an MDP}{section.3}% 29
-\BOOKMARK [2][-]{subsection.3.5}{Dialog Policy Optimization}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.5}{Policy Optimization}{section.3}% 30
 \BOOKMARK [3][-]{subsubsection.3.5.1}{Value Iterative Methods}{subsection.3.5}% 31
 \BOOKMARK [4][-]{paragraph.3.5.1.1}{Dynamic Programming}{subsubsection.3.5.1}% 32
 \BOOKMARK [4][-]{paragraph.3.5.1.2}{Monte Carlo Learning }{subsubsection.3.5.1}% 33

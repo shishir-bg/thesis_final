@@ -9,8 +9,9 @@
 \usepackage[pdftex]{graphicx}
 \graphicspath{ {./images/} }
 \usepackage{url}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
+\usepackage[paper=a4paper,left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
 \usepackage[english]{babel}
+\usepackage{titlepic}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -25,33 +26,34 @@
 % hyperlinks inside a document.
 % !TeX spellcheck = en_US 
 \setlength{\oddsidemargin}{0in}
-\setlength{\textwidth}{6.5in}
-\setlength{\topmargin}{0.2in}
-\setlength{\textheight}{7.6in}
+\setlength{\textwidth}{6.3in}
+\setlength{\topmargin}{0.3in}
+\setlength{\textheight}{7.3in}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
-
+	\bibliographystyle{ieeetr}
 % These force using more of the margins that is the default style
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\ \linebreak}
 \numberwithin{equation}{section}
 \pagestyle{headings}
+\titlepic{\includegraphics[scale=1]{cover}}
+\date{}
+\title{}
 \begin{document}
-	
-	\bibliographystyle{ieeetr}
-	
+	\newgeometry{margin=0in}
+	\begin{titlepage}
 	% Everything after this becomes content
 	% Replace the text between curly brackets with your own
-	
-	\title{Learning Goal-Oriented Dialog Strategies using Deep Reinforcement Learning}
-	\author{Shishir Narayan \\ Berlin}
-	\date{\today}
+	\centering
+	\maketitle
+\end{titlepage}
+\restoregeometry
+\clearpage
 	
 	% You can leave out "date" and it will be added automatically for today
 	% You can change the "\today" date to any text you like
 	
 	
-	\maketitle
-	\clearpage
 	% This command causes the title to be created in the document
 	
 	\setcounter{page}{1}
@@ -75,14 +77,22 @@
 	\end{flushright}
 	\clearpage
 	\section*{Acknowledgments}
+	I would first like to express my appreciation and gratitude to my supervisor at SRH Hochschule Heidelberg, Dr. Prof. Ajinkya Prabhune for sharing his valuable experience, knowledge and advice with me over the course of this master thesis. 
+	
+	I would also like to show my gratitude and thank my supervisor at botconnect GmbH, Mr. Moritz Strube for his guidance, support and motivation as well as his brilliant insights and ideas during the course of this work.
+	
+	I would also like to thank my family - my parents, aunt, uncle and my brothers and sisters - for their unwavering support and motivating me throughout my studies and my life. This work and graduate degree would not have been possible without their support.
+	
+	Last but not least I would like to thank my mentors at botconnect, Mr. Alexander Franke and Mr. Rami Akkad for giving me the opportunity to work as a student on Machine Learning and Dialog Systems, and support myself during my studies.
+	
 	\clearpage
 	
 	\section*{Abstract}
-	In this work we focus on applying reinforcement learning techniques to develop simple goal oriented dialog systems. The design and development of dialog systems is known to be a challenging task, with developers devoting  large amounts of effort and time on foreseeing prospective user interactions to develop appropriate system responses. This mapping across predicted user inputs and the correct system outputs is called a dialog strategy or in terms of reinforcement learning, a dialog policy.
+	In this work we focus on applying reinforcement learning techniques to develop simple goal oriented dialog systems. The design and development of dialog systems is known to be a challenging task, with developers devoting  large amounts of effort and time on foreseeing prospective user interactions in order to develop appropriate system responses. This mapping across predicted user inputs and the correct system outputs is called a dialog strategy or in terms of reinforcement learning, a dialog policy. We model the design and development of this strategy as a sequential decision-making task by employing the Markovian Decision Processes(MDP) framework. 
 	
-	Here we model the design and development of this strategy as a sequential decision-making task. This is done by employing a framework known as Markovian Decision Processes(MDP) that helps to model decision-making tasks. Our task is goal-oriented or domain-specific, i.e. to assist the user in helping to sell a product to a customer. Thus our goal oriented dialog system, commonly known as a chatbot, helps the user in achieving this predefined goal by having a dialog with the user which consists of making suggestions or asking questions about the customer. According to user response and previous interactions, the system decides what to say next to help the user. The success of the system is directly dependent on the quality of the learnt policy, which is dependent on the complexity of the environment and user simulation. We use Deep Reinforcement Learning techniques which use the MDP model to learn the required dialog policies by interacting with a simulated user environment. 
+	Our task is goal-oriented or domain-specific, i.e. to assist the user in helping to sell a product to a customer. Our goal oriented dialog system, commonly known as a chatbot, helps the user in achieving this predefined goal by having a dialog with the user which consists of making suggestions or asking questions about the customer. According to the user response and previous interactions, the system decides what to say next to help the user. The success of the system is directly dependent on the quality of the learnt policy, which is dependent on the complexity of the environment and user simulation. We use Deep Reinforcement Learning techniques which use the MDP model to learn the required dialog policies by interacting with a simulated environment. 
 	
-	In this thesis we also detail the probabilistic model of the environment simulation, as well as the intricacies in casting our dialog domain as a MDP. Further, we delve in detail about the various reinforcement learning techniques and formulations that can be used to optimize dialog policies. Finally, we give a summary of deep learning before examining two reinforcement learning algorithms, Advantage Actor Critic and REINFORCE and their formulation using neural networks in detail. This is then proceeded by a documentation of the results obtained during the training of these algorithms and their comparisons with appropriate classic reinforcement learning baselines. 
+	In this thesis we also detail the probabilistic model of the environment simulation, as well as intricacies in casting our dialog domain as a MDP. Further, we delve in detail about the various reinforcement learning techniques and formulations that can be used to optimize dialog policies. Finally, we give a summary of deep learning before examining two reinforcement learning algorithms, Advantage Actor Critic and REINFORCE and their formulation using neural networks. This is then proceeded by a documentation of the results obtained during the training of these algorithms and their comparisons with appropriate classic reinforcement learning baselines. 
 	\clearpage
 	\tableofcontents
 	
@@ -262,7 +272,7 @@
 		\caption{Dialog represented as a Markov Decision Process
 			\label{chat-world3}}
 	\end{figure}
-	Reinforcement Learning(RL) can be applied in a fairly straightforward manner to conversational models casted as MDPs. The Reinforcement Learning Agent's(RLA) Policy, observes a discrete state at time step $t$ represented by the current position of the dialog in the dialog MDP shown in Figure \ref{chat-world3}. Thus the current  state represents the sequence or path given by the arcs between all previous user input utterances, dialog states and system actions. The Dialog MDP otherwise called the \textit{conversation graph} is given by nodes that represent the actions/utterances from the RL Agent or utterances that the user or environment inputs. When the edges originate from a dialog state such as \{$S_0,S_1...$\} of the RL Agent, they represent the agents actions such as \{$a_0,a_1...$\}. When the edges originate from the hidden user states they are utterances that the user inputs, represented by \{$u_0, u_1...$\}. Thus each observable state of the Agent is a function of the history of the dialog and the previous user utterance. This state is also called the \textit{dialog state}. This modeling of the dialog state is based on the \textit{Information State Paradigm}\cite{Larsson:2000:ISD:973935.973943}, where the dialog environment is modeled as a discrete state space with a unique state number for each state otherwise known as finite state models. Our dialog system is task-oriented with the objective being the successful conversion of a service call to sell a product. Here the the objective can be summarized as making the best actions for a given dialog state to increase the chances of getting a positive response from the user.\par
+	Reinforcement Learning(RL) can be applied in a fairly straightforward manner to conversational models casted as MDPs. The Reinforcement Learning Agent's(RLA) Policy, observes a discrete state at time step $t$ represented by the current position of the dialog in the dialog MDP shown in Figure \ref{chat-world3}. Thus the current  state represents the sequence or path given by the arcs between all previous user input utterances, dialog states and system actions. The Dialog MDP otherwise called the \textit{conversation graph} is given by nodes that represent the actions/utterances from the RL Agent or utterances that the user or environment inputs. When the edges originate from a dialog state such as \{$S_0,S_1...$\} of the RL Agent, they represent the agents actions such as \{$a_0,a_1...$\}. When the edges originate from the hidden user states they are utterances that the user inputs, represented by \{$u_0, u_1...$\}. Thus each observable state of the Agent is a function of the history of the dialog and the previous user utterance. This state is also called the \textit{dialog state}. This modeling of the dialog state is based on the \textit{Information State Paradigm}\cite{Larsson:2000:ISD:973935.973943}, where the dialog environment is modeled as a discrete state space with a unique state number for each state otherwise known as finite state models. Our dialog system is task-oriented with the objective being the successful conversion of a service call to sell a product. Here the the objective can be summarized as making the best actions for a given dialog state to increase the chances of getting a positive response from the user.
 	\begin{figure}[H]
 		\includegraphics[scale=0.65]{user-env}
 		\centering
@@ -277,8 +287,8 @@
 		\caption{Agent-Environment Interaction in the form of a chatbot application
 			\label{chat-world2}}
 	\end{figure}
-	Here $S_t$ and $S_{t+1}$ represents the current and next observable state of the environment. $a_t$ is the currently chosen action from the policy $\pi$ approximated by the Reinforcement Learning Agent(RLA). $u_t$ represents the utterance/response from a simulated user to the current action(statement/question) $a_t$ from the RLA. This utterance $u_t$ along with the current action $a_t$ is fed into the Dialog State Manager(DSM) which manages the next state of the environment. The DSM then consults the reward function, which generates the reward(if any) for the current state. The Reward and the new State are then given to the RLA, which takes the new state as the current state and repeats the process. This process is expressed more clearly in the view of the chat-bot implementation in Figure \ref{chat-world2}. Here we see the User Input Utterance (In Blue) as well as the the most recent action from the agent is fed to the environment which then returns the next state and the reward for the current step to the Agent.
-	\subsection{Dialog Policy Optimization}
+	Here $S_t$ and $S_{t+1}$ represents the current and next observable state of the environment. $a_t$ is the currently chosen action from the policy $\pi$ approximated by the Reinforcement Learning Agent(RLA). $u_t$ represents the utterance/response from a simulated user to the current action(statement/question) $a_t$ from the RLA. This utterance $u_t$ along with the current action $a_t$ is fed into the  which manages the next state of the environment. The DSM then consults the reward function, which generates the reward(if any) for the current state. The Reward and the new State are then given to the RLA, which takes the new state as the current state and repeats the process. This process is expressed more clearly in the view of the chat-bot implementation in Figure \ref{chat-world2}. Here we see the User Input Utterance (In Blue) as well as the the most recent action from the agent is fed to the environment which then returns the next state and the reward for the current step to the Agent.
+	\subsection{Policy Optimization}\label{policy-opt}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.7]{mdp_methods}
@@ -540,8 +550,7 @@
 	
 	\section[Deep Learning]{Summary of Deep Learning}
 	\subsection{Overview}
-	Previously we saw theoretical foundations of RL and how they can be applied to the domain of Dialog Management. This chapter aims to explore how different RL algorithms based on the above described strategies for dialog optimization can be used in developing simplistic dialog strategies. The effects that the parameters of the learning framework has on the resulting strategies are also elaborated. Specifically we see how the simulated environment, hyper-parameters, reward functions and states affect the length of training time and what strategy is learned................. to be continued.
-	
+	This section aims to provide a summary of Artificial Neural Networks, the application of which, is now known as Deep Learning. Here, we elaborate on the fundamentals of deep learning, starting with the Multi-Layer Perceptron. We then explore the concept of loss functions and the various types of units or \textit{neurons} used in neural networks. We then proceed with an explanation of the general architecture of fully-connected neural networks before going into the process of learning conducted by these systems. This is done by exploring the back-propagation process and the stochastic gradient descent algorithm.
 	\subsection{Deep Feedforward Networks}
 	In Section \ref{fn_aprrox}, we explored the concept of function approximation and introduced the idea of Neural Networks to achieve this. Next we delve into an important type of Neural Network called the Multi-Layer Perceptrons (MLP) or more commonly the Deep Feedforward Networks. MLPs are one of the foundational models that stimulated the inception of the Deep Learning field. In essence, the primary aim of an MLP is to approximate some function $f^*$\cite{Goodfellow-et-al-2016}. 
 	
@@ -767,7 +776,7 @@ Now we consider forward and back propagation for the layers of a fully connected
 	
 	\section[Neural Dialog Management]{Neural Dialog Management  with Deep Reinforcement Learning}\label{dm-with-drl}
 	\subsection{Overview}
-	Previously, we saw how we can develop dialog strategies by applying Policy and Value Iteration Methods. In this chapter we will see the implementation of Algorithms from these methods, specifically the Advantage Actor Critic Algorithm applied to learn simple dialog strategies.	What we mean by Neural Dialog Management. What are actor critic methods (refer section 4.5.3). How is it conceptually applied to dm, like what does the critic do actor do with respect to dialog and what does the critic do with respect to dialog.
+	Previously, we saw how neural networks can be trained and used as function approximators. This section will derive and detail RL algorithms that are based on the methods we saw in Section \ref{policy-opt}. These algorithms include REINFORCE and Advantage Actor Critic, both are policy based and make use of neural networks to approximate the dialog policy of the reinforcement learning agent. We further explore the working of these algorithms and detail the architecture of the neural networks that we used to implement them. The combination of reinforcement learning algorithms with deep neural networks is known as deep reinforcement learning, and is what we later use to train our dialog system.
 	\subsection{REINFORCE}
 	In Section, \ref{policy_methods} we learnt about finding the gradient of the objective loss of a parameterized policy i.e.\ the policy gradient. We now use the policy gradient we derived in equation \ref{eq:vpg_update} to build a PG learning algorithm. This is known as the REINFORCE algorithm or Monte Carlo policy gradient algorithm\cite{Williams92REINFORCE}. For the parameterization, we use a deep neural network to approximate the policy, $\pi_{\theta}$ where $\theta$ represent the weights of the network. The PG theorem gives us an expression (Equation \ref{eq:vpg_update}), that is exactly equal to the gradient of the loss or performance measure of the parameterized policy. To use this method for actual learning we need a way to sample the episodes of the environment, such that the expectation of the samples for each episodes is approximately equal to this expression i.e\ RHS of equation \ref{eq:vpg_update}. With a little further investigation, we can also see that the RHS of the PG theorem is a sum over the states weighted by the recurrence rate of these states i.e. how often we see these states under the required policy $\pi$. Thus we have 
 	\begin{align}
@@ -932,8 +941,8 @@ Now we consider forward and back propagation for the layers of a fully connected
 	
 	\pagebreak
 	\section{Experiments and Results}
-	In this section, we show how the implementation of the above discussed algorithms can be practical in developing simple dialog strategies. Further, we discuss how these learning algorithms can be used together with a dialog MDP and a simulated user to learn simple dialog strategies for the customer-support assistance domain. We also explore how the variation of learning parameters, such as the discount rate, affect the resultant learned strategy. The purpose of these experiments is to show that it is possible to develop intelligent dialog systems in this domain and to reach an understanding of how these dialog strategies are affected by the learning framework. If we can establish this foundation then we could in the future extend this more realistic and practical situations with extremely large or continuous state-action spaces.
 	\subsection{Overview}
+		In this section, we show how the implementation of the above discussed algorithms can be practical in developing simple dialog strategies. Further, we discuss how these learning algorithms can be used together with a dialog MDP and a simulated user to learn simple dialog strategies for the customer-support assistance domain. We also explore how the effect of variation of some learning parameters. The purpose of these experiments is to show that it is possible to develop dialog systems in this domain and to reach an understanding of how these dialog strategies are affected by the learning framework. If we can establish this foundation then we could in the future extend this more realistic and practical situations with extremely large or continuous state-action spaces.
 	\subsection{Learning Simple Dialog Strategies}
 	All learning algorithms and dialog environment/user simulation were all done using Python 3.6.6\cite{python}. Further we used Google Tensorflow\cite{tensorflow} and the Keras framework\cite{keras} to implement the neural network Approximators. These experiments have the following primary goals :
 	\begin{itemize}
@@ -1115,9 +1124,9 @@ Now we consider forward and back propagation for the layers of a fully connected
 	\end{enumerate}
 	Based on a large number of training iterations and consequent tuning, the above parameters were found to produce the highest returns and fastest training times. Thus they were found to be the best set of parameters for the above described experimental setup (Section \ref{expt-setup}).
 	\begin{figure}[H]
-		\hspace*{-3.25cm}   
+		\hspace*{-2.25cm}   
 		\centering
-		\includegraphics[scale=0.8]{plot_reinforce_250.pdf}
+		\includegraphics[scale=0.73]{plot_reinforce_250.pdf}
 		\caption{REINFORCE Learning Curve
 			\label{reinforce-plot}}
 	\end{figure}
@@ -1142,6 +1151,41 @@ Now we consider forward and back propagation for the layers of a fully connected
 	\end{itemize}
 	
 	\clearpage
+	\section*{Abbreviations}
+
+\begin{table}[H]
+
+	\label{my-label}
+	\begin{tabular}{ll}
+		\hline
+		\multicolumn{1}{|l|}{Abbreviation} & \multicolumn{1}{l|}{Full form}    \\ \hline
+		API                                & Application Programming Interface \\
+		CRM                                & Customer Relationship Management  \\
+		GO                                 & Goal-Oriented                     \\
+		DST                                & Dialog State Tracking             \\
+		RL                                 & Reinforcement Learning            \\
+		MDP                                & Markov Decision Process           \\
+		POMDP                              & Partially Observable MDP          \\
+		NLU                                & Natural Language Understanding    \\
+		NLP                                & Natural Language Processing       \\
+		LSTM                               & Long Short-Term Memory            \\
+		RNN                                & Recurrent Neural Network          \\
+		DM                                 & Dialog Manager                    \\
+		DBN                                & Dynamic Bayesian Network          \\
+		CRF                                & Conditional Random Field          \\
+		HMM                                & Hidden Markov Model               \\
+		RLA                                & Reinforcement Learning Agent      \\
+		DSM                                & Dialog State Manager              \\
+		DP                                 & Dynamic Programming               \\
+		MC                                 & Monte Carlo Method                \\
+		SGD                                & Stochastic Gradient Descent       \\
+		GPI                                & Generalized Policy Iteration      \\
+		TD                                 & Temporal Difference Method        \\
+		PG                                 & Policy Gradient                   \\
+		A2C                                & Advantage Actor Critic            \\
+		ReLU                               & Rectified Linear Unit            
+	\end{tabular}
+\end{table}
 	\section[References]{Bibliography}
 	\bibliographystyle{apa}
 	\bibliography{references}
