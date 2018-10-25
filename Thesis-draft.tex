@@ -40,6 +40,7 @@
 \date{}
 \title{}
 \begin{document}
+	\thispagestyle{empty}
 	\newgeometry{margin=0in}
 	\begin{titlepage}
 	% Everything after this becomes content
@@ -47,9 +48,16 @@
 	\centering
 	\maketitle
 \end{titlepage}
-\restoregeometry
+\thispagestyle{empty}
 \clearpage
-	
+
+		\begin{figure}[H]
+			\centering
+		\includegraphics[scale=1]{cover2}
+			\label{cover2}
+	\end{figure}
+	\restoregeometry
+	\clearpage
 	% You can leave out "date" and it will be added automatically for today
 	% You can change the "\today" date to any text you like
 	
@@ -84,7 +92,11 @@
 	I would also like to thank my family - my parents, aunt, uncle and my brothers and sisters - for their unwavering support and motivating me throughout my studies and my life. This work and graduate degree would not have been possible without their support.
 	
 	Last but not least I would like to thank my mentors at botconnect, Mr. Alexander Franke and Mr. Rami Akkad for giving me the opportunity to work as a student on Machine Learning and Dialog Systems, and support myself during my studies.
-	
+		\\\\
+	\begin{flushright}
+		Shishir Narayan\\
+		\date{\today}
+	\end{flushright}
 	\clearpage
 	
 	\section*{Abstract}
@@ -1186,6 +1198,7 @@ Now we consider forward and back propagation for the layers of a fully connected
 		ReLU                               & Rectified Linear Unit            
 	\end{tabular}
 \end{table}
+\clearpage
 	\section[References]{Bibliography}
 	\bibliographystyle{apa}
 	\bibliography{references}
