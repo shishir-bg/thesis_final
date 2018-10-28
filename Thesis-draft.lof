@@ -1,22 +1,22 @@
 \select@language {english}
-\contentsline {figure}{\numberline {1}{\ignorespaces Text Based Dialog System Architecture }}{16}{figure.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Text Based Dialog System Architecture }}{17}{figure.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Agent-Environment Interface \cite {Sutton-introRL} }}{26}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Dialog represented as a Markov Decision Process }}{31}{figure.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Agent-Environment Interaction }}{33}{figure.4}
 \contentsline {figure}{\numberline {5}{\ignorespaces Agent-Environment Interaction in the form of a chatbot application }}{34}{figure.5}
 \contentsline {figure}{\numberline {6}{\ignorespaces Dialog Policy Optimization Methods }}{35}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Actor-Critic Environment Interaction }}{45}{figure.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Actor-Critic Environment Interaction }}{44}{figure.7}
 \contentsline {figure}{\numberline {8}{\ignorespaces Fully Connected Neural Network }}{53}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Rectified Linear Unit }}{58}{figure.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Rectified Linear Unit }}{57}{figure.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces Logistic Sigmoid Unit }}{59}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Hyperbolic Tangent Unit }}{60}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces General Architecture of a Neural Network }}{61}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces The Process of Gradient Descent\cite {Goodfellow-et-al-2016} }}{62}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Back Propagating Errors Through a Neural Network }}{63}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Policy Neural Network }}{69}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Actor-Critic Environment Interaction }}{71}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Actor Network }}{74}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Critic Network }}{75}{figure.18}
+\contentsline {figure}{\numberline {11}{\ignorespaces Hyperbolic Tangent Unit }}{59}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces General Architecture of a Neural Network }}{60}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces The Process of Gradient Descent\cite {Goodfellow-et-al-2016} }}{61}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Back Propagating Errors Through a Neural Network }}{62}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Policy Neural Network }}{68}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Actor-Critic Environment Interaction }}{70}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Actor Network }}{72}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Critic Network }}{74}{figure.18}
 \contentsline {figure}{\numberline {19}{\ignorespaces State Transition Model }}{78}{figure.19}
 \contentsline {figure}{\numberline {20}{\ignorespaces A2C Learning Curve }}{83}{figure.20}
 \contentsline {figure}{\numberline {21}{\ignorespaces Effect of the Discount Factor on A2C Learning }}{85}{figure.21}
